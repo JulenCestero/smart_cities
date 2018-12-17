@@ -1,3 +1,4 @@
+systemctl stop NetworkManager.service
 #!/bin/bash
 # Usage: ./initSoftAP
 ########### Initial wifi interface configuration #############
