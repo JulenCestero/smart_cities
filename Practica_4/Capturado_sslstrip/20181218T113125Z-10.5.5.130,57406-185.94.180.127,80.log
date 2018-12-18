@@ -1,0 +1,87 @@
+GET /directsdk/v1/115841.js HTTP/1.1
+Referer: http://www.comunio.es/login.phtml
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+Accept: */*
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Host: js.spotx.tv
+Connection: Keep-Alive
+
+HTTP/1.1 307 Temporary Redirect
+Server: nginx
+Date: Tue, 18 Dec 2018 11:31:25 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: SpotxAdPlayerVersion=beta; expires=Tue, 18-Dec-2018 11:31:25 GMT; Max-Age=0; path=/; domain=js.spotx.tv
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Last-Modified: Tue, 18 Dec 2018 11:31:25 GMT
+Cache-Control: no-cache, must-revalidate
+Cache-Control: post-check=0, pre-check=0
+Pragma: no-cache
+Access-Control-Allow-Origin: http://www.comunio.es
+Access-Control-Allow-Methods: POST, GET, PATCH, DELETE, OPTIONS
+Access-Control-Allow-Headers: 
+Access-Control-Allow-Credentials: true
+Location: http://aka.spotxcdn.com/integration/directsdk/v1/directsdk/beta.js
+
+0
+
+GET /ados/v1/115841.js HTTP/1.1
+Referer: http://www.comunio.es/login.phtml
+Accept: */*
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+Host: js.spotx.tv
+Connection: Keep-Alive
+
+HTTP/1.1 307 Temporary Redirect
+Server: nginx
+Date: Tue, 18 Dec 2018 11:31:27 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: SpotxAdPlayerVersion=beta; expires=Tue, 18-Dec-2018 11:31:27 GMT; Max-Age=0; path=/; domain=js.spotx.tv
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Last-Modified: Tue, 18 Dec 2018 11:31:27 GMT
+Cache-Control: no-cache, must-revalidate
+Cache-Control: post-check=0, pre-check=0
+Pragma: no-cache
+Access-Control-Allow-Origin: http://www.comunio.es
+Access-Control-Allow-Methods: POST, GET, PATCH, DELETE, OPTIONS
+Access-Control-Allow-Headers: 
+Access-Control-Allow-Credentials: true
+Location: http://aka.spotxcdn.com/integration/ados/v1/ados/beta.js
+
+0
+
+GET /ados/v1/115841.js HTTP/1.1
+Referer: http://www.comunio.es/login.phtml
+Accept: */*
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+Host: js.spotx.tv
+Connection: Keep-Alive
+
+HTTP/1.1 307 Temporary Redirect
+Server: nginx
+Date: Tue, 18 Dec 2018 11:31:33 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: SpotxAdPlayerVersion=beta; expires=Tue, 18-Dec-2018 11:31:33 GMT; Max-Age=0; path=/; domain=js.spotx.tv
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Last-Modified: Tue, 18 Dec 2018 11:31:33 GMT
+Cache-Control: no-cache, must-revalidate
+Cache-Control: post-check=0, pre-check=0
+Pragma: no-cache
+Access-Control-Allow-Origin: http://www.comunio.es
+Access-Control-Allow-Methods: POST, GET, PATCH, DELETE, OPTIONS
+Access-Control-Allow-Headers: 
+Access-Control-Allow-Credentials: true
+Location: http://aka.spotxcdn.com/integration/ados/v1/ados/beta.js
+
+0
+

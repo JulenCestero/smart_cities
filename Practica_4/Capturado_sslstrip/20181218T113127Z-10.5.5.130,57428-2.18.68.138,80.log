@@ -1,0 +1,19 @@
+GET /integration/ados/v1/ados/beta.js HTTP/1.1
+Referer: http://www.comunio.es/login.phtml
+Accept: */*
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+Host: aka.spotxcdn.com
+If-Modified-Since: Mon, 03 Dec 2018 19:12:49 GMT
+If-None-Match: a28de9c0782ee59dd94056f220519caf
+Connection: Keep-Alive
+
+HTTP/1.1 304 Not Modified
+Content-Type: text/javascript
+Last-Modified: Mon, 03 Dec 2018 19:12:49 UTC
+ETag: a28de9c0782ee59dd94056f220519caf
+Cache-Control: max-age=30
+Date: Tue, 18 Dec 2018 11:31:27 GMT
+Connection: keep-alive
+

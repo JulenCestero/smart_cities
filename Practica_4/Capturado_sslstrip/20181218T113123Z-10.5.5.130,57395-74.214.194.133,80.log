@@ -1,0 +1,56 @@
+POST /header/ortb HTTP/1.1
+Origin: http://www.comunio.es
+Referer: http://www.comunio.es/login.phtml
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+Content-Type: text/plain
+Accept: */*
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Host: bid.contextweb.com
+Content-Length: 982
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: vf=1; V=4gdS4Tm4O1bn; wf=0
+
+{"id":"3981533cdaa9011","imp":[{"id":"4013f1cdc367292","banner":{"w":728,"h":90},"native":null,"tagid":"651374"},{"id":"410750c381e0077","banner":{"w":970,"h":90},"native":null,"tagid":"651376"},{"id":"4218bd078f95f5","banner":{"w":970,"h":250},"native":null,"tagid":"651377"},{"id":"435447832310511","banner":{"w":160,"h":600},"native":null,"tagid":"651378"},{"id":"440e8c7c2f6f973","banner":{"w":300,"h":600},"native":null,"tagid":"651379"},{"id":"454f5c10d3a9113","banner":{"w":160,"h":600},"native":null,"tagid":"651380"},{"id":"4648b0d606244ab","banner":{"w":120,"h":600},"native":null,"tagid":"661525"},{"id":"47632c1a38532fa","banner":{"w":300,"h":250},"native":null,"tagid":"651382"}],"site":{"publisher":{"id":"560224"},"ref":"http://www.comunio.es/","page":"http://www.comunio.es/login.phtml"},"app":null,"device":{"ua":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134","language":"es-ES"}}HTTP/1.1 204 No Content
+Server: nginx
+Date: Tue, 18 Dec 2018 11:31:23 GMT
+Content-Length: 0
+Connection: keep-alive
+Access-Control-Allow-Origin: http://www.comunio.es
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: Access-Control-Allow-Origin
+CWDL: 22/120,22/120,22/120,22/120,22/120,22/120,22/120,22/120
+CW-Server: ams-bid12
+Set-Cookie: vf=2;Version=1;Comment=;Domain=.contextweb.com;Path=/;Max-Age=62917
+Set-Cookie: V=4gdS4Tm4O1bn;Version=1;Comment=;Domain=.contextweb.com;Path=/;Max-Age=31104000
+CW-FEServer: ams-prts02.pulse.prod
+
+POST /header/ortb HTTP/1.1
+Origin: http://www.comunio.es
+Referer: http://www.comunio.es/login.phtml
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+Content-Type: text/plain
+Accept: */*
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Host: bid.contextweb.com
+Content-Length: 994
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: vf=2; V=4gdS4Tm4O1bn; wf=0
+
+{"id":"158082a5c745826","imp":[{"id":"16e3d5934d994fe","banner":{"w":728,"h":90},"native":null,"tagid":"651374"},{"id":"17c53eedf23cfe7","banner":{"w":970,"h":90},"native":null,"tagid":"651376"},{"id":"183d55368526468","banner":{"w":970,"h":250},"native":null,"tagid":"651377"},{"id":"196f7427e1c4efd","banner":{"w":160,"h":600},"native":null,"tagid":"651378"},{"id":"20f7d470222cfe5","banner":{"w":300,"h":600},"native":null,"tagid":"651379"},{"id":"219df5388f2b11c","banner":{"w":160,"h":600},"native":null,"tagid":"651380"},{"id":"2293892529715db","banner":{"w":120,"h":600},"native":null,"tagid":"661525"},{"id":"23320f240b6bcca","banner":{"w":300,"h":250},"native":null,"tagid":"651382"}],"site":{"publisher":{"id":"560224"},"ref":"http://www.comunio.es/login.phtml","page":"http://www.comunio.es/login.phtml"},"app":null,"device":{"ua":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134","language":"es-ES"}}HTTP/1.1 204 No Content
+Server: nginx
+Date: Tue, 18 Dec 2018 11:31:37 GMT
+Content-Length: 0
+Connection: keep-alive
+Access-Control-Allow-Origin: http://www.comunio.es
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: Access-Control-Allow-Origin
+CWDL: 22/120,22/120,22/120,22/120,22/120,22/120,22/120,22/120
+CW-Server: ams-bid08
+Set-Cookie: vf=3;Version=1;Comment=;Domain=.contextweb.com;Path=/;Max-Age=62903
+Set-Cookie: V=4gdS4Tm4O1bn;Version=1;Comment=;Domain=.contextweb.com;Path=/;Max-Age=31104000
+CW-FEServer: ams-prts02.pulse.prod
+

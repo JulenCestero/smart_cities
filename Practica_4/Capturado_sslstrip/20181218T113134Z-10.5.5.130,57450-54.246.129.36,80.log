@@ -1,0 +1,18 @@
+GET /map/ext/api/trackingcallback/v1?accessToken=impdig-user-sync&publisher_user_id=a3880118-03de-4c7b-9dee-ab25b1e045b9&publisher_dsp_id=305&publisher_call_type=redirect&gdpr=1&gdpr_consent=BOWJjG9OWPQWYCLAAAENBy-AAAAiDAAA&publisher_redirecturl=http://ad.360yield.com/match HTTP/1.1
+Accept: image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+Host: sync.widespace.com
+Connection: Keep-Alive
+
+HTTP/1.1 302 
+Server: nginx/1.12.2
+Date: Tue, 18 Dec 2018 11:31:34 GMT
+Content-Length: 0
+Set-Cookie: gwsi=%7B%22wsi%22%3A%22b8977b5f-ba92-4d5b-8291-90a54c1b27d6%22%2C%22created%22%3A1545132694620%7D; Domain=.widespace.com; Expires=Wed, 18-Dec-2019 11:31:34 GMT; Path=/
+Cache-Control: must-revalidate, no-store, no-cache
+Pragma: no-cache
+Expires: -1
+Location: http://ad.360yield.com/match?publisher_dsp_id=305&external_user_id=b8977b5f-ba92-4d5b-8291-90a54c1b27d6&gdpr=1&gdpr_consent=BOWJjG9OWPQWYCLAAAENBy-AAAAiDAAA
+

@@ -1,0 +1,13 @@
+GET /?partner=108&smartmap=1&redirect=ps.eyeota.net%2Fpixel%3Fpid%3Di0r4s2v%26t%3Dr%26uid%3D%25m%26r%3Dhttp%253A%252F%252Fgrey.erne.co%252Ftags%253Fid%253Dcm_ct_33ff5ee80eab7dcc%2526img%253D1%2526red%253Dhttp%25253A%25252F%25252Fad.360yield.com%25252Fmatch%25253Fpublisher_dsp_id%25253D67%252526external_user_id%25253DaTxS1bP1Vjtxb9ukmvITR-1T HTTP/1.1
+Accept: image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+Host: pixel.onaudience.com
+Connection: Keep-Alive
+Cookie: cookie=33ff5ee80eab7dcc; done_redirects108=1
+
+HTTP/1.1 302 Found
+location: http://ps.eyeota.net/pixel?pid=i0r4s2v&t=r&uid=d256ecd19cc226df&r=http%3A%2F%2Fgrey.erne.co%2Ftags%3Fid%3Dcm_ct_33ff5ee80eab7dcc%26img%3D1%26red%3Dhttp%253A%252F%252Fad.360yield.com%252Fmatch%253Fpublisher_dsp_id%253D67%2526external_user_id%253DaTxS1bP1Vjtxb9ukmvITR-1T
+connection: close
+

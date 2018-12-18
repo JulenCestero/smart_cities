@@ -1,0 +1,18 @@
+GET /EMads/DIMatchPixel?publisher_user_id=a3880118-03de-4c7b-9dee-ab25b1e045b9&publisher_dsp_id=31&publisher_call_type=redirect&gdpr=1&gdpr_consent=BOWJjG9OWPQWYCLAAAENBy-AAAAiDAAA&publisher_redirecturl=http://ad.360yield.com/match HTTP/1.1
+Accept: image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+Host: www.rvty.net
+Connection: Keep-Alive
+
+HTTP/1.1 302 Found
+Date: Tue, 18 Dec 2018 11:31:27 GMT
+Server: Apache/2.4.7 (Ubuntu)
+Set-Cookie: RTBUserId=5c550673-04e0-4923-bce1-8cc10dc293c3; Domain=.rvty.net; Expires=Wed, 18-Dec-2019 11:31:27 GMT; Path=/
+Location: http://ad.360yield.com/match?publisher_dsp_id=31&external_user_id=5c550673-04e0-4923-bce1-8cc10dc293c3
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Keep-Alive: timeout=3
+Connection: Keep-Alive
+

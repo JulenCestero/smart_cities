@@ -346,3 +346,456 @@
 2018-12-17 17:42:01 UTC ssl 10.5.5.54 64392 172.217.17.14 443 sni:clients4.google.com names:*.google.com/*.google.com/*.android.com/*.appengine.google.com/*.cloud.google.com/*.g.co/*.gcp.gvt2.com/*.ggpht.cn/*.google-analytics.com/*.google.ca/*.google.cl/*.google.co.in/*.google.co.jp/*.google.co.uk/*.google.com.ar/*.google.com.au/*.google.com.br/*.google.com.co/*.google.com.mx/*.google.com.tr/*.google.com.vn/*.google.de/*.google.es/*.google.fr/*.google.hu/*.google.it/*.google.nl/*.google.pl/*.google.pt/*.googleadapis.com/*.googleapis.cn/*.googlecommerce.com/*.googlevideo.com/*.gstatic.cn/*.gstatic.com/*.gstaticcnapps.cn/*.gvt1.com/*.gvt2.com/*.metric.gstatic.com/*.urchin.com/*.url.google.com/*.youtube-nocookie.com/*.youtube.com/*.youtubeeducation.com/*.youtubekids.com/*.yt.be/*.ytimg.com/android.clients.google.com/android.com/developer.android.google.cn/developers.android.google.cn/g.co/ggpht.cn/goo.gl/google-analytics.com/google.com/googlecommerce.com/source.android.google.cn/urchin.com/www.goo.gl/youtu.be/youtube.com/youtubeeducation.com/youtubekids.com/yt.be sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:C847466B7BBBD0D4A31CE97A40749ECCBAFA5EC0 usedcrt:3807B73468A516FEF2CE0EFA46E6E27B3A00CEA0
 2018-12-17 17:42:04 UTC ssl 10.5.5.54 64393 172.217.16.227 443 sni:ssl.gstatic.com names:*.google.com/*.google.com/*.android.com/*.appengine.google.com/*.cloud.google.com/*.g.co/*.gcp.gvt2.com/*.ggpht.cn/*.google-analytics.com/*.google.ca/*.google.cl/*.google.co.in/*.google.co.jp/*.google.co.uk/*.google.com.ar/*.google.com.au/*.google.com.br/*.google.com.co/*.google.com.mx/*.google.com.tr/*.google.com.vn/*.google.de/*.google.es/*.google.fr/*.google.hu/*.google.it/*.google.nl/*.google.pl/*.google.pt/*.googleadapis.com/*.googleapis.cn/*.googlecommerce.com/*.googlevideo.com/*.gstatic.cn/*.gstatic.com/*.gstaticcnapps.cn/*.gvt1.com/*.gvt2.com/*.metric.gstatic.com/*.urchin.com/*.url.google.com/*.youtube-nocookie.com/*.youtube.com/*.youtubeeducation.com/*.youtubekids.com/*.yt.be/*.ytimg.com/android.clients.google.com/android.com/developer.android.google.cn/developers.android.google.cn/g.co/ggpht.cn/goo.gl/google-analytics.com/google.com/googlecommerce.com/source.android.google.cn/urchin.com/www.goo.gl/youtu.be/youtube.com/youtubeeducation.com/youtubekids.com/yt.be sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:C847466B7BBBD0D4A31CE97A40749ECCBAFA5EC0 usedcrt:3807B73468A516FEF2CE0EFA46E6E27B3A00CEA0
 2018-12-17 17:42:15 UTC ssl 10.5.5.54 64402 172.217.16.227 443 sni:ssl.gstatic.com names:*.google.com/*.google.com/*.android.com/*.appengine.google.com/*.cloud.google.com/*.g.co/*.gcp.gvt2.com/*.ggpht.cn/*.google-analytics.com/*.google.ca/*.google.cl/*.google.co.in/*.google.co.jp/*.google.co.uk/*.google.com.ar/*.google.com.au/*.google.com.br/*.google.com.co/*.google.com.mx/*.google.com.tr/*.google.com.vn/*.google.de/*.google.es/*.google.fr/*.google.hu/*.google.it/*.google.nl/*.google.pl/*.google.pt/*.googleadapis.com/*.googleapis.cn/*.googlecommerce.com/*.googlevideo.com/*.gstatic.cn/*.gstatic.com/*.gstaticcnapps.cn/*.gvt1.com/*.gvt2.com/*.metric.gstatic.com/*.urchin.com/*.url.google.com/*.youtube-nocookie.com/*.youtube.com/*.youtubeeducation.com/*.youtubekids.com/*.yt.be/*.ytimg.com/android.clients.google.com/android.com/developer.android.google.cn/developers.android.google.cn/g.co/ggpht.cn/goo.gl/google-analytics.com/google.com/googlecommerce.com/source.android.google.cn/urchin.com/www.goo.gl/youtu.be/youtube.com/youtubeeducation.com/youtubekids.com/yt.be sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:C847466B7BBBD0D4A31CE97A40749ECCBAFA5EC0 usedcrt:3807B73468A516FEF2CE0EFA46E6E27B3A00CEA0
+2018-12-18 11:08:17 UTC ssl 10.5.5.54 51226 172.217.168.170 443 sni:www.googleapis.com names:*.googleapis.com/*.googleapis.com/*.clients6.google.ae/*.clients6.google.at/*.clients6.google.be/*.clients6.google.ca/*.clients6.google.ch/*.clients6.google.cl/*.clients6.google.co.id/*.clients6.google.co.il/*.clients6.google.co.in/*.clients6.google.co.jp/*.clients6.google.co.kr/*.clients6.google.co.nz/*.clients6.google.co.uk/*.clients6.google.co.ve/*.clients6.google.co.za/*.clients6.google.com/*.clients6.google.com.ar/*.clients6.google.com.au/*.clients6.google.com.br/*.clients6.google.com.co/*.clients6.google.com.eg/*.clients6.google.com.kw/*.clients6.google.com.mx/*.clients6.google.com.om/*.clients6.google.com.pe/*.clients6.google.com.ph/*.clients6.google.com.qa/*.clients6.google.com.sa/*.clients6.google.com.sg/*.clients6.google.com.tr/*.clients6.google.com.tw/*.clients6.google.com.ua/*.clients6.google.com.vn/*.clients6.google.cz/*.clients6.google.de/*.clients6.google.dk/*.clients6.google.es/*.clients6.google.fi/*.clients6.google.fr/*.clients6.google.ie/*.clients6.google.is/*.clients6.google.it/*.clients6.google.jp/*.clients6.google.nl/*.clients6.google.no/*.clients6.google.pl/*.clients6.google.pt/*.clients6.google.ro/*.clients6.google.ru/*.clients6.google.se/*.cloudendpointsapis.com/cloudendpointsapis.com/googleapis.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:461CC285BDB0D56929DF152F8741D7ADEFD73516 usedcrt:470819B0410382B903EE640B599EFE7F5E2D43B0
+2018-12-18 11:08:24 UTC ssl 10.5.5.54 51228 213.254.244.17 443 sni:tps20230.doubleverify.com names:*.doubleverify.com/*.doubleverify.com/doubleverify.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 origcrt:F8A035D667F8A220FF8E88ACA636EE90F486C690 usedcrt:99E12912C094576EB5B7912FBE5625C7746173DB
+2018-12-18 11:08:26 UTC tcp 10.5.5.21 46250 216.58.210.163 80
+2018-12-18 11:08:26 UTC tcp 10.5.5.21 47278 216.58.201.142 80
+2018-12-18 11:08:26 UTC tcp 10.5.5.21 43890 31.13.83.49 80
+2018-12-18 11:08:35 UTC ssl 10.5.5.54 51237 172.217.168.170 443 sni:www.googleapis.com names:*.googleapis.com/*.googleapis.com/*.clients6.google.ae/*.clients6.google.at/*.clients6.google.be/*.clients6.google.ca/*.clients6.google.ch/*.clients6.google.cl/*.clients6.google.co.id/*.clients6.google.co.il/*.clients6.google.co.in/*.clients6.google.co.jp/*.clients6.google.co.kr/*.clients6.google.co.nz/*.clients6.google.co.uk/*.clients6.google.co.ve/*.clients6.google.co.za/*.clients6.google.com/*.clients6.google.com.ar/*.clients6.google.com.au/*.clients6.google.com.br/*.clients6.google.com.co/*.clients6.google.com.eg/*.clients6.google.com.kw/*.clients6.google.com.mx/*.clients6.google.com.om/*.clients6.google.com.pe/*.clients6.google.com.ph/*.clients6.google.com.qa/*.clients6.google.com.sa/*.clients6.google.com.sg/*.clients6.google.com.tr/*.clients6.google.com.tw/*.clients6.google.com.ua/*.clients6.google.com.vn/*.clients6.google.cz/*.clients6.google.de/*.clients6.google.dk/*.clients6.google.es/*.clients6.google.fi/*.clients6.google.fr/*.clients6.google.ie/*.clients6.google.is/*.clients6.google.it/*.clients6.google.jp/*.clients6.google.nl/*.clients6.google.no/*.clients6.google.pl/*.clients6.google.pt/*.clients6.google.ro/*.clients6.google.ru/*.clients6.google.se/*.cloudendpointsapis.com/cloudendpointsapis.com/googleapis.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:461CC285BDB0D56929DF152F8741D7ADEFD73516 usedcrt:470819B0410382B903EE640B599EFE7F5E2D43B0
+2018-12-18 11:08:37 UTC ssl 10.5.5.130 56609 204.79.197.203 443 sni:www.msn.com names:*.msn.com/*.msn.com/*.services.msn.com/*.msn.cn sproto:TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384 dproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 origcrt:BFC5351C23FE509832B7496F319F4AD2A8401367 usedcrt:CD880CD42ED33E824025F87BEE98FB6330B2492A
+2018-12-18 11:08:41 UTC ssl 10.5.5.54 51238 216.58.201.142 443 sni:clients4.google.com names:*.google.com/*.google.com/*.android.com/*.appengine.google.com/*.cloud.google.com/*.g.co/*.gcp.gvt2.com/*.ggpht.cn/*.google-analytics.com/*.google.ca/*.google.cl/*.google.co.in/*.google.co.jp/*.google.co.uk/*.google.com.ar/*.google.com.au/*.google.com.br/*.google.com.co/*.google.com.mx/*.google.com.tr/*.google.com.vn/*.google.de/*.google.es/*.google.fr/*.google.hu/*.google.it/*.google.nl/*.google.pl/*.google.pt/*.googleadapis.com/*.googleapis.cn/*.googlecommerce.com/*.googlevideo.com/*.gstatic.cn/*.gstatic.com/*.gstaticcnapps.cn/*.gvt1.com/*.gvt2.com/*.metric.gstatic.com/*.urchin.com/*.url.google.com/*.youtube-nocookie.com/*.youtube.com/*.youtubeeducation.com/*.youtubekids.com/*.yt.be/*.ytimg.com/android.clients.google.com/android.com/developer.android.google.cn/developers.android.google.cn/g.co/ggpht.cn/goo.gl/google-analytics.com/google.com/googlecommerce.com/source.android.google.cn/urchin.com/www.goo.gl/youtu.be/youtube.com/youtubeeducation.com/youtubekids.com/yt.be sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:C847466B7BBBD0D4A31CE97A40749ECCBAFA5EC0 usedcrt:C9FA16C5A89105FC1C0DDE868C51F88B792E0042
+2018-12-18 11:08:41 UTC ssl 10.5.5.130 56655 88.221.213.144 443 sni:static-spartan-neu-s-msn-com.akamaized.net names:a248.e.akamai.net/a248.e.akamai.net/*.akamaihd-staging.net/*.akamaized.net/*.akamaihd.net/*.akamaized-staging.net sproto:TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384 dproto:TLSv1.2:ECDHE-ECDSA-AES256-GCM-SHA384 origcrt:A69897B054E06F9B7F07749BDB890CA0521557F4 usedcrt:88E303C73F3F85479F1BC2EB4EA542CEF083EB10
+2018-12-18 11:09:01 UTC tcp 10.5.5.21 46650 104.199.65.59 80
+2018-12-18 11:09:03 UTC tcp 10.5.5.21 44916 88.221.213.187 80
+2018-12-18 11:09:14 UTC tcp 10.5.5.130 56792 46.245.181.141 80
+2018-12-18 11:09:14 UTC tcp 10.5.5.130 56793 46.245.181.141 80
+2018-12-18 11:09:16 UTC tcp 10.5.5.130 56805 46.245.181.141 80
+2018-12-18 11:09:16 UTC tcp 10.5.5.130 56806 46.245.181.141 80
+2018-12-18 11:09:17 UTC tcp 10.5.5.130 56808 46.245.181.141 80
+2018-12-18 11:09:17 UTC tcp 10.5.5.130 56809 46.245.181.141 80
+2018-12-18 11:09:17 UTC tcp 10.5.5.130 56810 46.245.181.141 80
+2018-12-18 11:09:17 UTC tcp 10.5.5.130 56811 46.245.181.141 80
+2018-12-18 11:09:17 UTC tcp 10.5.5.130 56812 52.19.194.15 80
+2018-12-18 11:09:17 UTC tcp 10.5.5.130 56813 52.19.194.15 80
+2018-12-18 11:09:17 UTC tcp 10.5.5.130 56816 82.102.17.19 80
+2018-12-18 11:09:17 UTC tcp 10.5.5.130 56815 82.102.17.19 80
+2018-12-18 11:09:19 UTC tcp 10.5.5.130 56817 46.245.181.141 80
+2018-12-18 11:09:20 UTC tcp 10.5.5.130 56818 46.245.181.141 80
+2018-12-18 11:09:20 UTC tcp 10.5.5.130 56819 172.217.168.162 80
+2018-12-18 11:09:20 UTC tcp 10.5.5.130 56820 172.217.168.162 80
+2018-12-18 11:09:22 UTC tcp 10.5.5.130 56821 46.245.181.141 80
+2018-12-18 11:09:22 UTC tcp 10.5.5.130 56822 46.245.181.141 80
+2018-12-18 11:09:23 UTC ssl 10.5.5.54 51254 172.217.168.164 443 sni:www.google.com names:www.google.com/www.google.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:9363AD7036A79953D0E1D25D1935F2597C762653 usedcrt:AF1FB967251B4D5AFA8D602ECE1476A2F2C55A3A
+2018-12-18 11:09:23 UTC ssl 10.5.5.54 51255 172.217.168.164 443 sni:www.google.com names:www.google.com/www.google.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:9363AD7036A79953D0E1D25D1935F2597C762653 usedcrt:AF1FB967251B4D5AFA8D602ECE1476A2F2C55A3A
+2018-12-18 11:09:23 UTC ssl 10.5.5.54 51259 172.217.168.164 443 sni:www.google.com names:www.google.com/www.google.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:9363AD7036A79953D0E1D25D1935F2597C762653 usedcrt:AF1FB967251B4D5AFA8D602ECE1476A2F2C55A3A
+2018-12-18 11:09:23 UTC ssl 10.5.5.54 51256 216.58.201.163 443 sni:www.gstatic.com names:*.google.com/*.google.com/*.android.com/*.appengine.google.com/*.cloud.google.com/*.g.co/*.gcp.gvt2.com/*.ggpht.cn/*.google-analytics.com/*.google.ca/*.google.cl/*.google.co.in/*.google.co.jp/*.google.co.uk/*.google.com.ar/*.google.com.au/*.google.com.br/*.google.com.co/*.google.com.mx/*.google.com.tr/*.google.com.vn/*.google.de/*.google.es/*.google.fr/*.google.hu/*.google.it/*.google.nl/*.google.pl/*.google.pt/*.googleadapis.com/*.googleapis.cn/*.googlecommerce.com/*.googlevideo.com/*.gstatic.cn/*.gstatic.com/*.gstaticcnapps.cn/*.gvt1.com/*.gvt2.com/*.metric.gstatic.com/*.urchin.com/*.url.google.com/*.youtube-nocookie.com/*.youtube.com/*.youtubeeducation.com/*.youtubekids.com/*.yt.be/*.ytimg.com/android.clients.google.com/android.com/developer.android.google.cn/developers.android.google.cn/g.co/ggpht.cn/goo.gl/google-analytics.com/google.com/googlecommerce.com/source.android.google.cn/urchin.com/www.goo.gl/youtu.be/youtube.com/youtubeeducation.com/youtubekids.com/yt.be sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:C847466B7BBBD0D4A31CE97A40749ECCBAFA5EC0 usedcrt:C9FA16C5A89105FC1C0DDE868C51F88B792E0042
+2018-12-18 11:09:23 UTC ssl 10.5.5.54 51260 172.217.168.164 443 sni:www.google.com names:www.google.com/www.google.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:9363AD7036A79953D0E1D25D1935F2597C762653 usedcrt:AF1FB967251B4D5AFA8D602ECE1476A2F2C55A3A
+2018-12-18 11:09:23 UTC ssl 10.5.5.54 51258 172.217.16.227 443 sni:ssl.gstatic.com names:*.google.com/*.google.com/*.android.com/*.appengine.google.com/*.cloud.google.com/*.g.co/*.gcp.gvt2.com/*.ggpht.cn/*.google-analytics.com/*.google.ca/*.google.cl/*.google.co.in/*.google.co.jp/*.google.co.uk/*.google.com.ar/*.google.com.au/*.google.com.br/*.google.com.co/*.google.com.mx/*.google.com.tr/*.google.com.vn/*.google.de/*.google.es/*.google.fr/*.google.hu/*.google.it/*.google.nl/*.google.pl/*.google.pt/*.googleadapis.com/*.googleapis.cn/*.googlecommerce.com/*.googlevideo.com/*.gstatic.cn/*.gstatic.com/*.gstaticcnapps.cn/*.gvt1.com/*.gvt2.com/*.metric.gstatic.com/*.urchin.com/*.url.google.com/*.youtube-nocookie.com/*.youtube.com/*.youtubeeducation.com/*.youtubekids.com/*.yt.be/*.ytimg.com/android.clients.google.com/android.com/developer.android.google.cn/developers.android.google.cn/g.co/ggpht.cn/goo.gl/google-analytics.com/google.com/googlecommerce.com/source.android.google.cn/urchin.com/www.goo.gl/youtu.be/youtube.com/youtubeeducation.com/youtubekids.com/yt.be sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:C847466B7BBBD0D4A31CE97A40749ECCBAFA5EC0 usedcrt:C9FA16C5A89105FC1C0DDE868C51F88B792E0042
+2018-12-18 11:09:23 UTC ssl 10.5.5.54 51257 216.58.211.33 443 sni:lh3.googleusercontent.com names:*.googleusercontent.com/*.googleusercontent.com/*.apps.googleusercontent.com/*.appspot.com.storage.googleapis.com/*.audiobook-additional-material-staging.googleusercontent.com/*.audiobook-additional-material.googleusercontent.com/*.blogspot.com/*.bp.blogspot.com/*.commondatastorage.googleapis.com/*.content-storage-download.googleapis.com/*.content-storage-upload.googleapis.com/*.content-storage.googleapis.com/*.dev.amp4mail.googleusercontent.com/*.doubleclickusercontent.com/*.ggpht.com/*.googledrive.com/*.googlesyndication.com/*.googleweblight.com/*.playground-internal.amp4mail.googleusercontent.com/*.playground.amp4mail.googleusercontent.com/*.prod.amp4mail.googleusercontent.com/*.safenup.googleusercontent.com/*.sandbox.googleusercontent.com/*.storage-download.googleapis.com/*.storage-upload.googleapis.com/*.storage.googleapis.com/*.storage.select.googleapis.com/*.translate.goog/blogspot.com/bp.blogspot.com/commondatastorage.googleapis.com/doubleclickusercontent.com/ggpht.com/googledrive.com/googleusercontent.com/googleweblight.com/manifest.lh3-da.googleusercontent.com/manifest.lh3-db.googleusercontent.com/manifest.lh3-dc.googleusercontent.com/manifest.lh3-dd.googleusercontent.com/manifest.lh3-de.googleusercontent.com/manifest.lh3-df.googleusercontent.com/manifest.lh3-dg.googleusercontent.com/manifest.lh3-dz.googleusercontent.com/manifest.lh3.googleusercontent.com/manifest.lh3.photos.google.com/static.panoramio.com.storage.googleapis.com/storage.googleapis.com/storage.select.googleapis.com/translate.goog/unfiltered.news sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:3A7263A1BE8F3299DF0C355E320BE2CBE3E1D310 usedcrt:5E0FE94FD1C33B61104E578BCE1D135DA10B16BE
+2018-12-18 11:09:23 UTC ssl 10.5.5.54 51261 172.217.168.164 443 sni:www.google.com names:www.google.com/www.google.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:9363AD7036A79953D0E1D25D1935F2597C762653 usedcrt:AF1FB967251B4D5AFA8D602ECE1476A2F2C55A3A
+2018-12-18 11:09:23 UTC ssl 10.5.5.54 51262 172.217.168.164 443 sni:www.google.com names:www.google.com/www.google.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:9363AD7036A79953D0E1D25D1935F2597C762653 usedcrt:AF1FB967251B4D5AFA8D602ECE1476A2F2C55A3A
+2018-12-18 11:09:23 UTC ssl 10.5.5.54 51263 172.217.168.164 443 sni:www.google.com names:www.google.com/www.google.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:9363AD7036A79953D0E1D25D1935F2597C762653 usedcrt:AF1FB967251B4D5AFA8D602ECE1476A2F2C55A3A
+2018-12-18 11:09:24 UTC tcp 10.5.5.130 56823 46.245.181.141 80
+2018-12-18 11:09:24 UTC tcp 10.5.5.130 56824 46.245.181.141 80
+2018-12-18 11:09:24 UTC ssl 10.5.5.54 51264 172.217.168.164 443 sni:www.google.com names:www.google.com/www.google.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:9363AD7036A79953D0E1D25D1935F2597C762653 usedcrt:AF1FB967251B4D5AFA8D602ECE1476A2F2C55A3A
+2018-12-18 11:09:24 UTC ssl 10.5.5.54 51265 172.217.168.164 443 sni:www.google.com names:www.google.com/www.google.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:9363AD7036A79953D0E1D25D1935F2597C762653 usedcrt:AF1FB967251B4D5AFA8D602ECE1476A2F2C55A3A
+2018-12-18 11:09:24 UTC tcp 10.5.5.130 56825 46.245.181.168 80
+2018-12-18 11:09:24 UTC tcp 10.5.5.130 56826 46.245.181.168 80
+2018-12-18 11:09:24 UTC tcp 10.5.5.130 56827 46.245.181.141 80
+2018-12-18 11:09:24 UTC ssl 10.5.5.54 51266 172.217.168.164 443 sni:www.google.com names:www.google.com/www.google.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:9363AD7036A79953D0E1D25D1935F2597C762653 usedcrt:AF1FB967251B4D5AFA8D602ECE1476A2F2C55A3A
+2018-12-18 11:09:24 UTC ssl 10.5.5.54 51267 172.217.168.164 443 sni:www.google.com names:www.google.com/www.google.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:9363AD7036A79953D0E1D25D1935F2597C762653 usedcrt:AF1FB967251B4D5AFA8D602ECE1476A2F2C55A3A
+2018-12-18 11:09:25 UTC tcp 10.5.5.130 56830 34.240.39.154 80
+2018-12-18 11:09:25 UTC tcp 10.5.5.130 56831 34.240.39.154 80
+2018-12-18 11:09:25 UTC ssl 10.5.5.54 51268 172.217.168.164 443 sni:www.google.com names:www.google.com/www.google.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:9363AD7036A79953D0E1D25D1935F2597C762653 usedcrt:AF1FB967251B4D5AFA8D602ECE1476A2F2C55A3A
+2018-12-18 11:09:25 UTC ssl 10.5.5.54 51269 172.217.168.164 443 sni:www.google.com names:www.google.com/www.google.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:9363AD7036A79953D0E1D25D1935F2597C762653 usedcrt:AF1FB967251B4D5AFA8D602ECE1476A2F2C55A3A
+2018-12-18 11:09:25 UTC ssl 10.5.5.54 51270 172.217.168.164 443 sni:www.google.com names:www.google.com/www.google.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:9363AD7036A79953D0E1D25D1935F2597C762653 usedcrt:AF1FB967251B4D5AFA8D602ECE1476A2F2C55A3A
+2018-12-18 11:09:25 UTC tcp 10.5.5.130 56832 13.32.90.99 80
+2018-12-18 11:09:25 UTC tcp 10.5.5.130 56833 13.32.90.99 80
+2018-12-18 11:09:26 UTC ssl 10.5.5.54 51271 172.217.168.164 443 sni:www.google.com names:www.google.com/www.google.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:9363AD7036A79953D0E1D25D1935F2597C762653 usedcrt:AF1FB967251B4D5AFA8D602ECE1476A2F2C55A3A
+2018-12-18 11:09:26 UTC ssl 10.5.5.54 51272 172.217.168.164 443 sni:www.google.com names:www.google.com/www.google.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:9363AD7036A79953D0E1D25D1935F2597C762653 usedcrt:AF1FB967251B4D5AFA8D602ECE1476A2F2C55A3A
+2018-12-18 11:09:26 UTC ssl 10.5.5.54 51273 172.217.168.164 443 sni:www.google.com names:www.google.com/www.google.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:9363AD7036A79953D0E1D25D1935F2597C762653 usedcrt:AF1FB967251B4D5AFA8D602ECE1476A2F2C55A3A
+2018-12-18 11:09:26 UTC ssl 10.5.5.54 51274 172.217.168.164 443 sni:www.google.com names:www.google.com/www.google.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:9363AD7036A79953D0E1D25D1935F2597C762653 usedcrt:AF1FB967251B4D5AFA8D602ECE1476A2F2C55A3A
+2018-12-18 11:09:26 UTC ssl 10.5.5.54 51275 172.217.168.164 443 sni:www.google.com names:www.google.com/www.google.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:9363AD7036A79953D0E1D25D1935F2597C762653 usedcrt:AF1FB967251B4D5AFA8D602ECE1476A2F2C55A3A
+2018-12-18 11:09:27 UTC tcp 10.5.5.130 56836 37.252.172.70 80
+2018-12-18 11:09:27 UTC tcp 10.5.5.130 56837 37.252.172.70 80
+2018-12-18 11:09:27 UTC tcp 10.5.5.130 56838 185.86.139.58 80
+2018-12-18 11:09:27 UTC tcp 10.5.5.130 56839 185.86.139.58 80
+2018-12-18 11:09:27 UTC tcp 10.5.5.130 56840 185.86.139.58 80
+2018-12-18 11:09:27 UTC tcp 10.5.5.130 56841 185.86.139.58 80
+2018-12-18 11:09:27 UTC tcp 10.5.5.130 56842 185.86.139.58 80
+2018-12-18 11:09:27 UTC tcp 10.5.5.130 56843 185.86.139.58 80
+2018-12-18 11:09:27 UTC tcp 10.5.5.130 56846 74.214.194.133 80
+2018-12-18 11:09:27 UTC tcp 10.5.5.130 56847 74.214.194.133 80
+2018-12-18 11:09:27 UTC tcp 10.5.5.130 56848 173.241.240.220 80
+2018-12-18 11:09:27 UTC tcp 10.5.5.130 56849 173.241.240.220 80
+2018-12-18 11:09:27 UTC ssl 10.5.5.54 51276 172.217.168.164 443 sni:www.google.com names:www.google.com/www.google.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:9363AD7036A79953D0E1D25D1935F2597C762653 usedcrt:AF1FB967251B4D5AFA8D602ECE1476A2F2C55A3A
+2018-12-18 11:09:27 UTC ssl 10.5.5.54 51277 172.217.168.164 443 sni:www.google.com names:www.google.com/www.google.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:9363AD7036A79953D0E1D25D1935F2597C762653 usedcrt:AF1FB967251B4D5AFA8D602ECE1476A2F2C55A3A
+2018-12-18 11:09:27 UTC tcp 10.5.5.130 56853 88.221.213.138 80
+2018-12-18 11:09:27 UTC tcp 10.5.5.130 56852 88.221.213.138 80
+2018-12-18 11:09:27 UTC ssl 10.5.5.54 51278 172.217.168.164 443 sni:www.google.com names:www.google.com/www.google.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:9363AD7036A79953D0E1D25D1935F2597C762653 usedcrt:AF1FB967251B4D5AFA8D602ECE1476A2F2C55A3A
+2018-12-18 11:09:27 UTC ssl 10.5.5.54 51279 172.217.168.164 443 sni:www.google.com names:www.google.com/www.google.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:9363AD7036A79953D0E1D25D1935F2597C762653 usedcrt:AF1FB967251B4D5AFA8D602ECE1476A2F2C55A3A
+2018-12-18 11:09:28 UTC tcp 10.5.5.54 51280 46.245.181.141 80
+2018-12-18 11:09:28 UTC tcp 10.5.5.54 51281 46.245.181.141 80
+2018-12-18 11:09:28 UTC ssl 10.5.5.54 51283 172.217.168.162 443 sni:adservice.google.com names:*.google.com/*.google.com/*.android.com/*.appengine.google.com/*.cloud.google.com/*.g.co/*.gcp.gvt2.com/*.ggpht.cn/*.google-analytics.com/*.google.ca/*.google.cl/*.google.co.in/*.google.co.jp/*.google.co.uk/*.google.com.ar/*.google.com.au/*.google.com.br/*.google.com.co/*.google.com.mx/*.google.com.tr/*.google.com.vn/*.google.de/*.google.es/*.google.fr/*.google.hu/*.google.it/*.google.nl/*.google.pl/*.google.pt/*.googleadapis.com/*.googleapis.cn/*.googlecommerce.com/*.googlevideo.com/*.gstatic.cn/*.gstatic.com/*.gstaticcnapps.cn/*.gvt1.com/*.gvt2.com/*.metric.gstatic.com/*.urchin.com/*.url.google.com/*.youtube-nocookie.com/*.youtube.com/*.youtubeeducation.com/*.youtubekids.com/*.yt.be/*.ytimg.com/android.clients.google.com/android.com/developer.android.google.cn/developers.android.google.cn/g.co/ggpht.cn/goo.gl/google-analytics.com/google.com/googlecommerce.com/source.android.google.cn/urchin.com/www.goo.gl/youtu.be/youtube.com/youtubeeducation.com/youtubekids.com/yt.be sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:C847466B7BBBD0D4A31CE97A40749ECCBAFA5EC0 usedcrt:C9FA16C5A89105FC1C0DDE868C51F88B792E0042
+2018-12-18 11:09:28 UTC ssl 10.5.5.54 51285 172.217.168.162 443 sni:adservice.google.es names:*.google.com/*.google.com/*.android.com/*.appengine.google.com/*.cloud.google.com/*.g.co/*.gcp.gvt2.com/*.ggpht.cn/*.google-analytics.com/*.google.ca/*.google.cl/*.google.co.in/*.google.co.jp/*.google.co.uk/*.google.com.ar/*.google.com.au/*.google.com.br/*.google.com.co/*.google.com.mx/*.google.com.tr/*.google.com.vn/*.google.de/*.google.es/*.google.fr/*.google.hu/*.google.it/*.google.nl/*.google.pl/*.google.pt/*.googleadapis.com/*.googleapis.cn/*.googlecommerce.com/*.googlevideo.com/*.gstatic.cn/*.gstatic.com/*.gstaticcnapps.cn/*.gvt1.com/*.gvt2.com/*.metric.gstatic.com/*.urchin.com/*.url.google.com/*.youtube-nocookie.com/*.youtube.com/*.youtubeeducation.com/*.youtubekids.com/*.yt.be/*.ytimg.com/android.clients.google.com/android.com/developer.android.google.cn/developers.android.google.cn/g.co/ggpht.cn/goo.gl/google-analytics.com/google.com/googlecommerce.com/source.android.google.cn/urchin.com/www.goo.gl/youtu.be/youtube.com/youtubeeducation.com/youtubekids.com/yt.be sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:C847466B7BBBD0D4A31CE97A40749ECCBAFA5EC0 usedcrt:C9FA16C5A89105FC1C0DDE868C51F88B792E0042
+2018-12-18 11:09:28 UTC tcp 10.5.5.54 51289 46.245.181.141 80
+2018-12-18 11:09:28 UTC tcp 10.5.5.54 51290 46.245.181.141 80
+2018-12-18 11:09:28 UTC ssl 10.5.5.54 51287 172.217.168.162 443 sni:www.googletagservices.com names:*.g.doubleclick.net/*.g.doubleclick.net/*.googleadservices.com/*.googlesyndication.com/*.googletagservices.com/*.invitemedia.com/g.doubleclick.net/googleadservices.com/googlesyndication.com/googletagservices.com/media.admob.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:919F4AE113EAB9F639F469001E963648C71ACE04 usedcrt:0901E95A269EF43759920119F008BBA57B486FBC
+2018-12-18 11:09:28 UTC tcp 10.5.5.54 51293 82.102.17.19 80
+2018-12-18 11:09:28 UTC ssl 10.5.5.54 51288 216.58.201.162 443 sni:securepubads.g.doubleclick.net names:*.g.doubleclick.net/*.g.doubleclick.net/*.googleadservices.com/*.googlesyndication.com/*.googletagservices.com/*.invitemedia.com/g.doubleclick.net/googleadservices.com/googlesyndication.com/googletagservices.com/media.admob.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:919F4AE113EAB9F639F469001E963648C71ACE04 usedcrt:49FA0E2916E2455FDF7EB6ED3C6A6934C69E2662
+2018-12-18 11:09:28 UTC tcp 10.5.5.54 51291 46.245.181.141 80
+2018-12-18 11:09:28 UTC tcp 10.5.5.54 51292 46.245.181.141 80
+2018-12-18 11:09:28 UTC ssl 10.5.5.54 51286 82.102.17.19 443 sni:static.h-bid.com names:static.h-bid.com/static.h-bid.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 origcrt:8860BE20C29AD235C6B59BBFC4C582DCEEAB8EBF usedcrt:FC2B1BEC9D4FC4AEB9060CE022E8D74E6C6F31F7
+2018-12-18 11:09:28 UTC ssl 10.5.5.54 51284 46.245.181.168 443 sni:analytics.comunio.net names:ads.comunio.de/ads.comunio.de/ads.comunio.net/analytics.comunio.de/analytics.comunio.net/api.comunio.de/b.comunio.net/beta.comunio.de/blog.comunio.de/classic.comunio.de/comduo.comunio.de/comunio.de/comunio.net/rpc.comunio.de/shop.comunio.de/www.comunio.de/www.comunio.net sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-RSA-CHACHA20-POLY1305 origcrt:320F11D9C263A532416112FDCF2C264615E3ABC4 usedcrt:714CDB64AE9F992F3C667CFAC0A8CD196ACDC6EB
+2018-12-18 11:09:29 UTC ssl 10.5.5.54 51282 46.245.181.141 443 sni:www.comunio.es names:comunio.es/api.comunio.es/beta.comunio.es/classic.comunio.es/comunio.es/comuniodesegunda.es/rpc.comunio.es/www.comunio.es/www.comuniodesegunda.es sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-RSA-CHACHA20-POLY1305 origcrt:2338BB2C850BECDF664CAA8F9E461DC49FC10400 usedcrt:A40EA8D41D8023E1F88930DE72CA6604A7F3B8D1
+2018-12-18 11:09:29 UTC tcp 10.5.5.54 51294 52.208.224.168 80
+2018-12-18 11:09:30 UTC tcp 10.5.5.54 51295 82.102.17.19 80
+2018-12-18 11:09:30 UTC tcp 10.5.5.54 51297 172.217.168.162 80
+2018-12-18 11:09:30 UTC tcp 10.5.5.54 51296 46.245.181.168 80
+2018-12-18 11:09:30 UTC tcp 10.5.5.54 51298 13.32.90.99 80
+2018-12-18 11:09:30 UTC tcp 10.5.5.54 51300 13.32.90.99 80
+2018-12-18 11:09:30 UTC tcp 10.5.5.54 51299 34.240.39.154 80
+2018-12-18 11:09:30 UTC tcp 10.5.5.54 51301 34.240.39.154 80
+2018-12-18 11:09:31 UTC ssl 10.5.5.54 51302 216.58.201.142 443 sni:clients1.google.com names:*.google.com/*.google.com/*.android.com/*.appengine.google.com/*.cloud.google.com/*.g.co/*.gcp.gvt2.com/*.ggpht.cn/*.google-analytics.com/*.google.ca/*.google.cl/*.google.co.in/*.google.co.jp/*.google.co.uk/*.google.com.ar/*.google.com.au/*.google.com.br/*.google.com.co/*.google.com.mx/*.google.com.tr/*.google.com.vn/*.google.de/*.google.es/*.google.fr/*.google.hu/*.google.it/*.google.nl/*.google.pl/*.google.pt/*.googleadapis.com/*.googleapis.cn/*.googlecommerce.com/*.googlevideo.com/*.gstatic.cn/*.gstatic.com/*.gstaticcnapps.cn/*.gvt1.com/*.gvt2.com/*.metric.gstatic.com/*.urchin.com/*.url.google.com/*.youtube-nocookie.com/*.youtube.com/*.youtubeeducation.com/*.youtubekids.com/*.yt.be/*.ytimg.com/android.clients.google.com/android.com/developer.android.google.cn/developers.android.google.cn/g.co/ggpht.cn/goo.gl/google-analytics.com/google.com/googlecommerce.com/source.android.google.cn/urchin.com/www.goo.gl/youtu.be/youtube.com/youtubeeducation.com/youtubekids.com/yt.be sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:C847466B7BBBD0D4A31CE97A40749ECCBAFA5EC0 usedcrt:C9FA16C5A89105FC1C0DDE868C51F88B792E0042
+2018-12-18 11:09:31 UTC ssl 10.5.5.54 51304 31.13.83.36 443 sni:www.facebook.com names:*.facebook.com/*.facebook.com/*.xx.fbcdn.net/*.fbsbx.com/*.xz.fbcdn.net/*.facebook.net/*.xy.fbcdn.net/*.messenger.com/fb.com/*.fbcdn.net/*.fb.com/*.m.facebook.com/messenger.com/facebook.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-AES128-GCM-SHA256 origcrt:BD258C1F62A4A6D9CF7D9812D22E2FF57E84FB36 usedcrt:0D303F4AEE48328E8A98C0475B8716EC4C840506
+2018-12-18 11:09:31 UTC ssl 10.5.5.54 51305 172.217.168.162 443 sni:adservice.google.es names:*.google.com/*.google.com/*.android.com/*.appengine.google.com/*.cloud.google.com/*.g.co/*.gcp.gvt2.com/*.ggpht.cn/*.google-analytics.com/*.google.ca/*.google.cl/*.google.co.in/*.google.co.jp/*.google.co.uk/*.google.com.ar/*.google.com.au/*.google.com.br/*.google.com.co/*.google.com.mx/*.google.com.tr/*.google.com.vn/*.google.de/*.google.es/*.google.fr/*.google.hu/*.google.it/*.google.nl/*.google.pl/*.google.pt/*.googleadapis.com/*.googleapis.cn/*.googlecommerce.com/*.googlevideo.com/*.gstatic.cn/*.gstatic.com/*.gstaticcnapps.cn/*.gvt1.com/*.gvt2.com/*.metric.gstatic.com/*.urchin.com/*.url.google.com/*.youtube-nocookie.com/*.youtube.com/*.youtubeeducation.com/*.youtubekids.com/*.yt.be/*.ytimg.com/android.clients.google.com/android.com/developer.android.google.cn/developers.android.google.cn/g.co/ggpht.cn/goo.gl/google-analytics.com/google.com/googlecommerce.com/source.android.google.cn/urchin.com/www.goo.gl/youtu.be/youtube.com/youtubeeducation.com/youtubekids.com/yt.be sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:C847466B7BBBD0D4A31CE97A40749ECCBAFA5EC0 usedcrt:C9FA16C5A89105FC1C0DDE868C51F88B792E0042
+2018-12-18 11:09:31 UTC ssl 10.5.5.54 51306 172.217.168.162 443 sni:adservice.google.com names:*.google.com/*.google.com/*.android.com/*.appengine.google.com/*.cloud.google.com/*.g.co/*.gcp.gvt2.com/*.ggpht.cn/*.google-analytics.com/*.google.ca/*.google.cl/*.google.co.in/*.google.co.jp/*.google.co.uk/*.google.com.ar/*.google.com.au/*.google.com.br/*.google.com.co/*.google.com.mx/*.google.com.tr/*.google.com.vn/*.google.de/*.google.es/*.google.fr/*.google.hu/*.google.it/*.google.nl/*.google.pl/*.google.pt/*.googleadapis.com/*.googleapis.cn/*.googlecommerce.com/*.googlevideo.com/*.gstatic.cn/*.gstatic.com/*.gstaticcnapps.cn/*.gvt1.com/*.gvt2.com/*.metric.gstatic.com/*.urchin.com/*.url.google.com/*.youtube-nocookie.com/*.youtube.com/*.youtubeeducation.com/*.youtubekids.com/*.yt.be/*.ytimg.com/android.clients.google.com/android.com/developer.android.google.cn/developers.android.google.cn/g.co/ggpht.cn/goo.gl/google-analytics.com/google.com/googlecommerce.com/source.android.google.cn/urchin.com/www.goo.gl/youtu.be/youtube.com/youtubeeducation.com/youtubekids.com/yt.be sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:C847466B7BBBD0D4A31CE97A40749ECCBAFA5EC0 usedcrt:C9FA16C5A89105FC1C0DDE868C51F88B792E0042
+2018-12-18 11:09:33 UTC tcp 10.5.5.54 51309 185.86.139.58 80
+2018-12-18 11:09:33 UTC tcp 10.5.5.54 51310 185.86.139.58 80
+2018-12-18 11:09:33 UTC tcp 10.5.5.54 51311 185.86.139.58 80
+2018-12-18 11:09:33 UTC tcp 10.5.5.54 51312 185.86.139.58 80
+2018-12-18 11:09:33 UTC tcp 10.5.5.54 51313 185.86.139.58 80
+2018-12-18 11:09:33 UTC tcp 10.5.5.54 51314 185.86.139.58 80
+2018-12-18 11:09:33 UTC tcp 10.5.5.54 51315 37.252.172.70 80
+2018-12-18 11:09:33 UTC tcp 10.5.5.54 51316 37.252.172.70 80
+2018-12-18 11:09:33 UTC tcp 10.5.5.54 51317 37.252.172.70 80
+2018-12-18 11:09:33 UTC tcp 10.5.5.54 51318 88.221.213.138 80
+2018-12-18 11:09:33 UTC ssl 10.5.5.54 51303 216.58.201.142 443 sni:clients1.google.com names:*.google.com/*.google.com/*.android.com/*.appengine.google.com/*.cloud.google.com/*.g.co/*.gcp.gvt2.com/*.ggpht.cn/*.google-analytics.com/*.google.ca/*.google.cl/*.google.co.in/*.google.co.jp/*.google.co.uk/*.google.com.ar/*.google.com.au/*.google.com.br/*.google.com.co/*.google.com.mx/*.google.com.tr/*.google.com.vn/*.google.de/*.google.es/*.google.fr/*.google.hu/*.google.it/*.google.nl/*.google.pl/*.google.pt/*.googleadapis.com/*.googleapis.cn/*.googlecommerce.com/*.googlevideo.com/*.gstatic.cn/*.gstatic.com/*.gstaticcnapps.cn/*.gvt1.com/*.gvt2.com/*.metric.gstatic.com/*.urchin.com/*.url.google.com/*.youtube-nocookie.com/*.youtube.com/*.youtubeeducation.com/*.youtubekids.com/*.yt.be/*.ytimg.com/android.clients.google.com/android.com/developer.android.google.cn/developers.android.google.cn/g.co/ggpht.cn/goo.gl/google-analytics.com/google.com/googlecommerce.com/source.android.google.cn/urchin.com/www.goo.gl/youtu.be/youtube.com/youtubeeducation.com/youtubekids.com/yt.be sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:C847466B7BBBD0D4A31CE97A40749ECCBAFA5EC0 usedcrt:C9FA16C5A89105FC1C0DDE868C51F88B792E0042
+2018-12-18 11:09:33 UTC tcp 10.5.5.54 51320 173.241.240.220 80
+2018-12-18 11:09:33 UTC tcp 10.5.5.54 51321 74.214.194.134 80
+2018-12-18 11:09:33 UTC tcp 10.5.5.54 51322 88.221.213.138 80
+2018-12-18 11:09:33 UTC tcp 10.5.5.54 51325 74.214.194.134 80
+2018-12-18 11:09:33 UTC tcp 10.5.5.54 51324 173.241.240.220 80
+2018-12-18 11:09:33 UTC tcp 10.5.5.54 51327 2.18.69.21 80
+2018-12-18 11:09:33 UTC tcp 10.5.5.54 51328 2.18.69.21 80
+2018-12-18 11:09:33 UTC tcp 10.5.5.54 51329 172.217.16.225 80
+2018-12-18 11:09:34 UTC tcp 10.5.5.130 56859 173.241.240.143 80
+2018-12-18 11:09:34 UTC tcp 10.5.5.130 56860 173.241.240.143 80
+2018-12-18 11:09:34 UTC ssl 10.5.5.54 51319 104.20.195.117 443 sni:i.connectad.io names:connectad.io/*.connectad.io/connectad.io sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:EB21060431E937DEF7A52C36C2B23B69D1D7C7E0 usedcrt:59B5C86BAE9E9DC18733745FBC2C57622F63B772
+2018-12-18 11:09:35 UTC tcp 10.5.5.54 51330 172.217.16.225 80
+2018-12-18 11:09:35 UTC ssl 10.5.5.54 51326 216.58.201.162 443 sni:securepubads.g.doubleclick.net names:*.g.doubleclick.net/*.g.doubleclick.net/*.googleadservices.com/*.googlesyndication.com/*.googletagservices.com/*.invitemedia.com/g.doubleclick.net/googleadservices.com/googlesyndication.com/googletagservices.com/media.admob.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:919F4AE113EAB9F639F469001E963648C71ACE04 usedcrt:49FA0E2916E2455FDF7EB6ED3C6A6934C69E2662
+2018-12-18 11:09:36 UTC tcp 10.5.5.130 56865 46.245.181.168 80
+2018-12-18 11:09:36 UTC tcp 10.5.5.130 56866 46.245.181.168 80
+2018-12-18 11:09:36 UTC tcp 10.5.5.130 56867 46.245.181.141 80
+2018-12-18 11:09:39 UTC tcp 10.5.5.54 51334 173.241.240.143 80
+2018-12-18 11:09:39 UTC ssl 10.5.5.54 51331 216.58.201.142 443 sni:clients1.google.com names:*.google.com/*.google.com/*.android.com/*.appengine.google.com/*.cloud.google.com/*.g.co/*.gcp.gvt2.com/*.ggpht.cn/*.google-analytics.com/*.google.ca/*.google.cl/*.google.co.in/*.google.co.jp/*.google.co.uk/*.google.com.ar/*.google.com.au/*.google.com.br/*.google.com.co/*.google.com.mx/*.google.com.tr/*.google.com.vn/*.google.de/*.google.es/*.google.fr/*.google.hu/*.google.it/*.google.nl/*.google.pl/*.google.pt/*.googleadapis.com/*.googleapis.cn/*.googlecommerce.com/*.googlevideo.com/*.gstatic.cn/*.gstatic.com/*.gstaticcnapps.cn/*.gvt1.com/*.gvt2.com/*.metric.gstatic.com/*.urchin.com/*.url.google.com/*.youtube-nocookie.com/*.youtube.com/*.youtubeeducation.com/*.youtubekids.com/*.yt.be/*.ytimg.com/android.clients.google.com/android.com/developer.android.google.cn/developers.android.google.cn/g.co/ggpht.cn/goo.gl/google-analytics.com/google.com/googlecommerce.com/source.android.google.cn/urchin.com/www.goo.gl/youtu.be/youtube.com/youtubeeducation.com/youtubekids.com/yt.be sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:C847466B7BBBD0D4A31CE97A40749ECCBAFA5EC0 usedcrt:C9FA16C5A89105FC1C0DDE868C51F88B792E0042
+2018-12-18 11:09:39 UTC tcp 10.5.5.54 51336 173.241.240.143 80
+2018-12-18 11:09:39 UTC ssl 10.5.5.54 51333 216.58.201.162 443 sni:securepubads.g.doubleclick.net names:*.g.doubleclick.net/*.g.doubleclick.net/*.googleadservices.com/*.googlesyndication.com/*.googletagservices.com/*.invitemedia.com/g.doubleclick.net/googleadservices.com/googlesyndication.com/googletagservices.com/media.admob.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:919F4AE113EAB9F639F469001E963648C71ACE04 usedcrt:49FA0E2916E2455FDF7EB6ED3C6A6934C69E2662
+2018-12-18 11:09:39 UTC tcp 10.5.5.54 51337 37.157.6.252 80
+2018-12-18 11:09:39 UTC tcp 10.5.5.54 51338 37.157.6.252 80
+2018-12-18 11:09:39 UTC tcp 10.5.5.54 51340 185.29.135.226 80
+2018-12-18 11:09:40 UTC tcp 10.5.5.54 51339 54.77.151.154 80
+2018-12-18 11:09:40 UTC tcp 10.5.5.54 51343 18.153.11.16 80
+2018-12-18 11:09:40 UTC tcp 10.5.5.54 51344 18.153.11.16 80
+2018-12-18 11:09:40 UTC tcp 10.5.5.54 51347 185.29.135.226 80
+2018-12-18 11:09:40 UTC tcp 10.5.5.54 51346 54.77.151.154 80
+2018-12-18 11:09:40 UTC tcp 10.5.5.54 51349 35.158.238.250 80
+2018-12-18 11:09:40 UTC tcp 10.5.5.54 51350 35.158.238.250 80
+2018-12-18 11:09:40 UTC tcp 10.5.5.54 51352 185.94.180.127 80
+2018-12-18 11:09:40 UTC tcp 10.5.5.54 51353 173.241.240.151 80
+2018-12-18 11:09:40 UTC ssl 10.5.5.54 51341 216.58.210.130 443 sni:cm.g.doubleclick.net names:*.g.doubleclick.net/*.g.doubleclick.net/*.googleadservices.com/*.googlesyndication.com/*.googletagservices.com/*.invitemedia.com/g.doubleclick.net/googleadservices.com/googlesyndication.com/googletagservices.com/media.admob.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:919F4AE113EAB9F639F469001E963648C71ACE04 usedcrt:49FA0E2916E2455FDF7EB6ED3C6A6934C69E2662
+2018-12-18 11:09:40 UTC tcp 10.5.5.54 51351 34.254.210.10 80
+2018-12-18 11:09:40 UTC ssl 10.5.5.54 51342 46.228.164.11 443 sni:ad.turn.com names:*.turn.com/*.turn.com/turn.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:AES128-SHA origcrt:87DD7960B111C3E1501375D057A039CCF098A16A usedcrt:B14165AE46972AA1486CC01E1A352257A11FEF25
+2018-12-18 11:09:40 UTC tcp 10.5.5.54 51354 173.241.240.143 80
+2018-12-18 11:09:40 UTC tcp 10.5.5.54 51355 173.241.240.143 80
+2018-12-18 11:09:40 UTC tcp 10.5.5.54 51356 35.195.2.140 80
+2018-12-18 11:09:40 UTC tcp 10.5.5.54 51357 2.18.68.138 80
+2018-12-18 11:09:40 UTC tcp 10.5.5.54 51358 185.94.180.126 80
+2018-12-18 11:09:40 UTC tcp 10.5.5.54 51360 104.155.76.175 80
+2018-12-18 11:09:40 UTC tcp 10.5.5.54 51361 104.155.76.175 80
+2018-12-18 11:09:40 UTC tcp 10.5.5.54 51363 188.165.137.78 80
+2018-12-18 11:09:40 UTC tcp 10.5.5.54 51362 213.155.156.185 80
+2018-12-18 11:09:40 UTC tcp 10.5.5.54 51364 173.241.240.151 80
+2018-12-18 11:09:41 UTC tcp 10.5.5.54 51366 46.245.181.141 80
+2018-12-18 11:09:41 UTC ssl 10.5.5.54 51359 54.36.123.231 443 sni:id5-sync.com names:*.id5-sync.com/*.id5-sync.com/id5-sync.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 origcrt:8B112516CF5C96D43562B3601DB8063B137F67C5 usedcrt:178B2BA30E4A02210245F2E001FE4A27628A56C2
+2018-12-18 11:09:41 UTC ssl 10.5.5.54 51365 34.254.123.31 443 sni:match.justpremium.com names:tracking.justpremium.com/tracking.justpremium.com/*.ads.justpremium.com/*.tracking.justpremium.com/ads.justpremium.com/justpremium.com/*.justpremium.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 origcrt:BD789D6A8DABABEA00FAF9C68B68B584191F53F3 usedcrt:DE51888D37D475ACD416720899A5E6CC20B7583D
+2018-12-18 11:09:41 UTC tcp 10.5.5.54 51374 173.241.240.143 80
+2018-12-18 11:09:41 UTC tcp 10.5.5.54 51375 173.241.240.143 80
+2018-12-18 11:09:41 UTC ssl 10.5.5.54 51368 172.217.168.162 443 sni:adservice.google.es names:*.google.com/*.google.com/*.android.com/*.appengine.google.com/*.cloud.google.com/*.g.co/*.gcp.gvt2.com/*.ggpht.cn/*.google-analytics.com/*.google.ca/*.google.cl/*.google.co.in/*.google.co.jp/*.google.co.uk/*.google.com.ar/*.google.com.au/*.google.com.br/*.google.com.co/*.google.com.mx/*.google.com.tr/*.google.com.vn/*.google.de/*.google.es/*.google.fr/*.google.hu/*.google.it/*.google.nl/*.google.pl/*.google.pt/*.googleadapis.com/*.googleapis.cn/*.googlecommerce.com/*.googlevideo.com/*.gstatic.cn/*.gstatic.com/*.gstaticcnapps.cn/*.gvt1.com/*.gvt2.com/*.metric.gstatic.com/*.urchin.com/*.url.google.com/*.youtube-nocookie.com/*.youtube.com/*.youtubeeducation.com/*.youtubekids.com/*.yt.be/*.ytimg.com/android.clients.google.com/android.com/developer.android.google.cn/developers.android.google.cn/g.co/ggpht.cn/goo.gl/google-analytics.com/google.com/googlecommerce.com/source.android.google.cn/urchin.com/www.goo.gl/youtu.be/youtube.com/youtubeeducation.com/youtubekids.com/yt.be sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:C847466B7BBBD0D4A31CE97A40749ECCBAFA5EC0 usedcrt:C9FA16C5A89105FC1C0DDE868C51F88B792E0042
+2018-12-18 11:09:41 UTC ssl 10.5.5.54 51371 82.102.17.19 443 sni:static.h-bid.com names:static.h-bid.com/static.h-bid.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 origcrt:8860BE20C29AD235C6B59BBFC4C582DCEEAB8EBF usedcrt:FC2B1BEC9D4FC4AEB9060CE022E8D74E6C6F31F7
+2018-12-18 11:09:41 UTC ssl 10.5.5.54 51369 172.217.168.162 443 sni:adservice.google.com names:*.google.com/*.google.com/*.android.com/*.appengine.google.com/*.cloud.google.com/*.g.co/*.gcp.gvt2.com/*.ggpht.cn/*.google-analytics.com/*.google.ca/*.google.cl/*.google.co.in/*.google.co.jp/*.google.co.uk/*.google.com.ar/*.google.com.au/*.google.com.br/*.google.com.co/*.google.com.mx/*.google.com.tr/*.google.com.vn/*.google.de/*.google.es/*.google.fr/*.google.hu/*.google.it/*.google.nl/*.google.pl/*.google.pt/*.googleadapis.com/*.googleapis.cn/*.googlecommerce.com/*.googlevideo.com/*.gstatic.cn/*.gstatic.com/*.gstaticcnapps.cn/*.gvt1.com/*.gvt2.com/*.metric.gstatic.com/*.urchin.com/*.url.google.com/*.youtube-nocookie.com/*.youtube.com/*.youtubeeducation.com/*.youtubekids.com/*.yt.be/*.ytimg.com/android.clients.google.com/android.com/developer.android.google.cn/developers.android.google.cn/g.co/ggpht.cn/goo.gl/google-analytics.com/google.com/googlecommerce.com/source.android.google.cn/urchin.com/www.goo.gl/youtu.be/youtube.com/youtubeeducation.com/youtubekids.com/yt.be sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:C847466B7BBBD0D4A31CE97A40749ECCBAFA5EC0 usedcrt:C9FA16C5A89105FC1C0DDE868C51F88B792E0042
+2018-12-18 11:09:41 UTC ssl 10.5.5.54 51372 172.217.168.162 443 sni:www.googletagservices.com names:*.g.doubleclick.net/*.g.doubleclick.net/*.googleadservices.com/*.googlesyndication.com/*.googletagservices.com/*.invitemedia.com/g.doubleclick.net/googleadservices.com/googlesyndication.com/googletagservices.com/media.admob.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:919F4AE113EAB9F639F469001E963648C71ACE04 usedcrt:49FA0E2916E2455FDF7EB6ED3C6A6934C69E2662
+2018-12-18 11:09:41 UTC ssl 10.5.5.54 51335 216.58.201.162 443 sni:securepubads.g.doubleclick.net names:*.g.doubleclick.net/*.g.doubleclick.net/*.googleadservices.com/*.googlesyndication.com/*.googletagservices.com/*.invitemedia.com/g.doubleclick.net/googleadservices.com/googlesyndication.com/googletagservices.com/media.admob.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:919F4AE113EAB9F639F469001E963648C71ACE04 usedcrt:49FA0E2916E2455FDF7EB6ED3C6A6934C69E2662
+2018-12-18 11:09:41 UTC ssl 10.5.5.54 51367 46.245.181.141 443 sni:www.comunio.es names:comunio.es/api.comunio.es/beta.comunio.es/classic.comunio.es/comunio.es/comuniodesegunda.es/rpc.comunio.es/www.comunio.es/www.comuniodesegunda.es sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-RSA-CHACHA20-POLY1305 origcrt:2338BB2C850BECDF664CAA8F9E461DC49FC10400 usedcrt:A40EA8D41D8023E1F88930DE72CA6604A7F3B8D1
+2018-12-18 11:09:41 UTC ssl 10.5.5.54 51370 46.245.181.168 443 sni:analytics.comunio.net names:ads.comunio.de/ads.comunio.de/ads.comunio.net/analytics.comunio.de/analytics.comunio.net/api.comunio.de/b.comunio.net/beta.comunio.de/blog.comunio.de/classic.comunio.de/comduo.comunio.de/comunio.de/comunio.net/rpc.comunio.de/shop.comunio.de/www.comunio.de/www.comunio.net sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-RSA-CHACHA20-POLY1305 origcrt:320F11D9C263A532416112FDCF2C264615E3ABC4 usedcrt:714CDB64AE9F992F3C667CFAC0A8CD196ACDC6EB
+2018-12-18 11:09:41 UTC tcp 10.5.5.54 51382 85.194.242.103 80
+2018-12-18 11:09:41 UTC ssl 10.5.5.54 51373 34.254.123.31 443 sni:match.justpremium.com names:tracking.justpremium.com/tracking.justpremium.com/*.ads.justpremium.com/*.tracking.justpremium.com/ads.justpremium.com/justpremium.com/*.justpremium.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 origcrt:BD789D6A8DABABEA00FAF9C68B68B584191F53F3 usedcrt:DE51888D37D475ACD416720899A5E6CC20B7583D
+2018-12-18 11:09:41 UTC tcp 10.5.5.54 51383 85.194.242.103 80
+2018-12-18 11:09:42 UTC tcp 10.5.5.54 51384 46.245.181.141 80
+2018-12-18 11:09:42 UTC tcp 10.5.5.54 51385 185.86.139.58 80
+2018-12-18 11:09:42 UTC tcp 10.5.5.54 51386 185.86.139.58 80
+2018-12-18 11:09:42 UTC tcp 10.5.5.54 51387 185.86.139.58 80
+2018-12-18 11:09:42 UTC tcp 10.5.5.54 51388 185.86.139.58 80
+2018-12-18 11:09:42 UTC tcp 10.5.5.54 51389 185.86.139.58 80
+2018-12-18 11:09:42 UTC ssl 10.5.5.54 51380 34.254.123.31 443 sni:match.justpremium.com names:tracking.justpremium.com/tracking.justpremium.com/*.ads.justpremium.com/*.tracking.justpremium.com/ads.justpremium.com/justpremium.com/*.justpremium.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 origcrt:BD789D6A8DABABEA00FAF9C68B68B584191F53F3 usedcrt:DE51888D37D475ACD416720899A5E6CC20B7583D
+2018-12-18 11:09:42 UTC tcp 10.5.5.54 51391 37.252.172.70 80
+2018-12-18 11:09:42 UTC ssl 10.5.5.54 51381 34.254.123.31 443 sni:match.justpremium.com names:tracking.justpremium.com/tracking.justpremium.com/*.ads.justpremium.com/*.tracking.justpremium.com/ads.justpremium.com/justpremium.com/*.justpremium.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 origcrt:BD789D6A8DABABEA00FAF9C68B68B584191F53F3 usedcrt:DE51888D37D475ACD416720899A5E6CC20B7583D
+2018-12-18 11:09:42 UTC ssl 10.5.5.54 51323 104.20.195.117 443 sni:i.connectad.io names:connectad.io/*.connectad.io/connectad.io sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:EB21060431E937DEF7A52C36C2B23B69D1D7C7E0 usedcrt:59B5C86BAE9E9DC18733745FBC2C57622F63B772
+2018-12-18 11:09:42 UTC tcp 10.5.5.54 51392 46.245.181.141 80
+2018-12-18 11:09:42 UTC tcp 10.5.5.130 56871 46.245.181.141 80
+2018-12-18 11:09:42 UTC tcp 10.5.5.54 51393 46.245.181.168 80
+2018-12-18 11:09:42 UTC ssl 10.5.5.54 51332 216.58.201.142 443 sni:clients1.google.com names:*.google.com/*.google.com/*.android.com/*.appengine.google.com/*.cloud.google.com/*.g.co/*.gcp.gvt2.com/*.ggpht.cn/*.google-analytics.com/*.google.ca/*.google.cl/*.google.co.in/*.google.co.jp/*.google.co.uk/*.google.com.ar/*.google.com.au/*.google.com.br/*.google.com.co/*.google.com.mx/*.google.com.tr/*.google.com.vn/*.google.de/*.google.es/*.google.fr/*.google.hu/*.google.it/*.google.nl/*.google.pl/*.google.pt/*.googleadapis.com/*.googleapis.cn/*.googlecommerce.com/*.googlevideo.com/*.gstatic.cn/*.gstatic.com/*.gstaticcnapps.cn/*.gvt1.com/*.gvt2.com/*.metric.gstatic.com/*.urchin.com/*.url.google.com/*.youtube-nocookie.com/*.youtube.com/*.youtubeeducation.com/*.youtubekids.com/*.yt.be/*.ytimg.com/android.clients.google.com/android.com/developer.android.google.cn/developers.android.google.cn/g.co/ggpht.cn/goo.gl/google-analytics.com/google.com/googlecommerce.com/source.android.google.cn/urchin.com/www.goo.gl/youtu.be/youtube.com/youtubeeducation.com/youtubekids.com/yt.be sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:C847466B7BBBD0D4A31CE97A40749ECCBAFA5EC0 usedcrt:C9FA16C5A89105FC1C0DDE868C51F88B792E0042
+2018-12-18 11:09:42 UTC tcp 10.5.5.130 56875 185.86.139.58 80
+2018-12-18 11:09:42 UTC tcp 10.5.5.130 56876 185.86.139.58 80
+2018-12-18 11:09:42 UTC tcp 10.5.5.130 56877 185.86.139.58 80
+2018-12-18 11:09:42 UTC tcp 10.5.5.130 56878 185.86.139.58 80
+2018-12-18 11:09:42 UTC tcp 10.5.5.130 56879 185.86.139.58 80
+2018-12-18 11:09:42 UTC tcp 10.5.5.130 56880 185.86.139.58 80
+2018-12-18 11:09:42 UTC tcp 10.5.5.130 56882 74.214.194.133 80
+2018-12-18 11:09:42 UTC tcp 10.5.5.130 56881 74.214.194.133 80
+2018-12-18 11:09:42 UTC tcp 10.5.5.130 56883 37.252.172.70 80
+2018-12-18 11:09:42 UTC tcp 10.5.5.130 56884 37.252.172.70 80
+2018-12-18 11:09:42 UTC tcp 10.5.5.130 56885 173.241.240.220 80
+2018-12-18 11:09:42 UTC tcp 10.5.5.130 56886 173.241.240.220 80
+2018-12-18 11:09:42 UTC tcp 10.5.5.130 56887 88.221.213.138 80
+2018-12-18 11:09:42 UTC tcp 10.5.5.130 56888 88.221.213.138 80
+2018-12-18 11:09:43 UTC tcp 10.5.5.130 56891 46.245.181.141 80
+2018-12-18 11:09:43 UTC tcp 10.5.5.54 51390 185.86.139.58 80
+2018-12-18 11:09:43 UTC ssl 10.5.5.54 51400 216.58.201.142 443 sni:clients1.google.com names:*.google.com/*.google.com/*.android.com/*.appengine.google.com/*.cloud.google.com/*.g.co/*.gcp.gvt2.com/*.ggpht.cn/*.google-analytics.com/*.google.ca/*.google.cl/*.google.co.in/*.google.co.jp/*.google.co.uk/*.google.com.ar/*.google.com.au/*.google.com.br/*.google.com.co/*.google.com.mx/*.google.com.tr/*.google.com.vn/*.google.de/*.google.es/*.google.fr/*.google.hu/*.google.it/*.google.nl/*.google.pl/*.google.pt/*.googleadapis.com/*.googleapis.cn/*.googlecommerce.com/*.googlevideo.com/*.gstatic.cn/*.gstatic.com/*.gstaticcnapps.cn/*.gvt1.com/*.gvt2.com/*.metric.gstatic.com/*.urchin.com/*.url.google.com/*.youtube-nocookie.com/*.youtube.com/*.youtubeeducation.com/*.youtubekids.com/*.yt.be/*.ytimg.com/android.clients.google.com/android.com/developer.android.google.cn/developers.android.google.cn/g.co/ggpht.cn/goo.gl/google-analytics.com/google.com/googlecommerce.com/source.android.google.cn/urchin.com/www.goo.gl/youtu.be/youtube.com/youtubeeducation.com/youtubekids.com/yt.be sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:C847466B7BBBD0D4A31CE97A40749ECCBAFA5EC0 usedcrt:C9FA16C5A89105FC1C0DDE868C51F88B792E0042
+2018-12-18 11:09:43 UTC ssl 10.5.5.54 51402 216.58.201.162 443 sni:securepubads.g.doubleclick.net names:*.g.doubleclick.net/*.g.doubleclick.net/*.googleadservices.com/*.googlesyndication.com/*.googletagservices.com/*.invitemedia.com/g.doubleclick.net/googleadservices.com/googlesyndication.com/googletagservices.com/media.admob.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:919F4AE113EAB9F639F469001E963648C71ACE04 usedcrt:49FA0E2916E2455FDF7EB6ED3C6A6934C69E2662
+2018-12-18 11:09:43 UTC ssl 10.5.5.54 51405 216.58.201.162 443 sni:securepubads.g.doubleclick.net names:*.g.doubleclick.net/*.g.doubleclick.net/*.googleadservices.com/*.googlesyndication.com/*.googletagservices.com/*.invitemedia.com/g.doubleclick.net/googleadservices.com/googlesyndication.com/googletagservices.com/media.admob.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:919F4AE113EAB9F639F469001E963648C71ACE04 usedcrt:49FA0E2916E2455FDF7EB6ED3C6A6934C69E2662
+2018-12-18 11:09:43 UTC tcp 10.5.5.130 56894 37.157.6.246 80
+2018-12-18 11:09:43 UTC tcp 10.5.5.130 56895 37.157.6.246 80
+2018-12-18 11:09:44 UTC tcp 10.5.5.130 56896 18.153.11.16 80
+2018-12-18 11:09:44 UTC tcp 10.5.5.130 56897 18.153.11.16 80
+2018-12-18 11:09:44 UTC tcp 10.5.5.54 51409 35.158.238.250 80
+2018-12-18 11:09:44 UTC tcp 10.5.5.54 51411 13.32.90.99 80
+2018-12-18 11:09:44 UTC tcp 10.5.5.130 56902 185.29.135.234 80
+2018-12-18 11:09:44 UTC tcp 10.5.5.130 56903 185.29.135.234 80
+2018-12-18 11:09:44 UTC ssl 10.5.5.54 51410 54.36.123.231 443 sni:id5-sync.com names:*.id5-sync.com/*.id5-sync.com/id5-sync.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 origcrt:8B112516CF5C96D43562B3601DB8063B137F67C5 usedcrt:178B2BA30E4A02210245F2E001FE4A27628A56C2
+2018-12-18 11:09:44 UTC tcp 10.5.5.130 56904 34.246.237.244 80
+2018-12-18 11:09:44 UTC tcp 10.5.5.130 56905 34.246.237.244 80
+2018-12-18 11:09:45 UTC ssl 10.5.5.54 51412 34.254.123.31 443 sni:match.justpremium.com names:tracking.justpremium.com/tracking.justpremium.com/*.ads.justpremium.com/*.tracking.justpremium.com/ads.justpremium.com/justpremium.com/*.justpremium.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 origcrt:BD789D6A8DABABEA00FAF9C68B68B584191F53F3 usedcrt:DE51888D37D475ACD416720899A5E6CC20B7583D
+2018-12-18 11:09:45 UTC tcp 10.5.5.54 51413 159.180.84.2 80
+2018-12-18 11:09:46 UTC tcp 10.5.5.130 56909 13.32.90.99 80
+2018-12-18 11:09:46 UTC tcp 10.5.5.130 56908 13.32.90.99 80
+2018-12-18 11:09:46 UTC tcp 10.5.5.130 56910 46.245.181.168 80
+2018-12-18 11:09:46 UTC tcp 10.5.5.130 56911 46.245.181.168 80
+2018-12-18 11:09:46 UTC ssl 10.5.5.54 51414 34.254.123.31 443 sni:match.justpremium.com names:tracking.justpremium.com/tracking.justpremium.com/*.ads.justpremium.com/*.tracking.justpremium.com/ads.justpremium.com/justpremium.com/*.justpremium.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 origcrt:BD789D6A8DABABEA00FAF9C68B68B584191F53F3 usedcrt:DE51888D37D475ACD416720899A5E6CC20B7583D
+2018-12-18 11:09:46 UTC ssl 10.5.5.54 51415 34.254.123.31 443 sni:match.justpremium.com names:tracking.justpremium.com/tracking.justpremium.com/*.ads.justpremium.com/*.tracking.justpremium.com/ads.justpremium.com/justpremium.com/*.justpremium.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 origcrt:BD789D6A8DABABEA00FAF9C68B68B584191F53F3 usedcrt:DE51888D37D475ACD416720899A5E6CC20B7583D
+2018-12-18 11:09:46 UTC tcp 10.5.5.54 51419 3.120.49.191 80
+2018-12-18 11:09:46 UTC tcp 10.5.5.54 51420 34.242.147.23 80
+2018-12-18 11:09:46 UTC tcp 10.5.5.54 51418 204.2.197.204 80
+2018-12-18 11:09:46 UTC tcp 10.5.5.54 51423 52.214.119.15 80
+2018-12-18 11:09:46 UTC tcp 10.5.5.54 51424 85.194.242.103 80
+2018-12-18 11:09:46 UTC ssl 10.5.5.54 51416 34.254.123.31 443 sni:match.justpremium.com names:tracking.justpremium.com/tracking.justpremium.com/*.ads.justpremium.com/*.tracking.justpremium.com/ads.justpremium.com/justpremium.com/*.justpremium.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 origcrt:BD789D6A8DABABEA00FAF9C68B68B584191F53F3 usedcrt:DE51888D37D475ACD416720899A5E6CC20B7583D
+2018-12-18 11:09:46 UTC tcp 10.5.5.54 51426 52.214.119.15 80
+2018-12-18 11:09:46 UTC tcp 10.5.5.54 51430 3.120.49.191 80
+2018-12-18 11:09:46 UTC tcp 10.5.5.54 51428 34.242.147.23 80
+2018-12-18 11:09:46 UTC tcp 10.5.5.54 51429 204.2.197.204 80
+2018-12-18 11:09:46 UTC ssl 10.5.5.54 51417 34.254.123.31 443 sni:match.justpremium.com names:tracking.justpremium.com/tracking.justpremium.com/*.ads.justpremium.com/*.tracking.justpremium.com/ads.justpremium.com/justpremium.com/*.justpremium.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 origcrt:BD789D6A8DABABEA00FAF9C68B68B584191F53F3 usedcrt:DE51888D37D475ACD416720899A5E6CC20B7583D
+2018-12-18 11:09:46 UTC tcp 10.5.5.54 51436 54.246.129.36 80
+2018-12-18 11:09:46 UTC tcp 10.5.5.54 51434 178.62.241.118 80
+2018-12-18 11:09:46 UTC tcp 10.5.5.54 51432 193.0.160.128 80
+2018-12-18 11:09:46 UTC tcp 10.5.5.54 51435 8.41.222.241 80
+2018-12-18 11:09:46 UTC tcp 10.5.5.54 51437 173.241.240.220 80
+2018-12-18 11:09:46 UTC tcp 10.5.5.54 51440 34.254.123.31 80
+2018-12-18 11:09:46 UTC tcp 10.5.5.54 51441 54.246.129.36 80
+2018-12-18 11:09:46 UTC ssl 10.5.5.54 51421 173.241.240.17 443 sni:rtb.openx.net names:*.openx.net/*.openx.net/openx.net sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-AES256-GCM-SHA384 origcrt:B07C75C77B2D2FBC83C101B8293C1DFD33008953 usedcrt:CBAC5B86C66CEA415780CE51111F49355826477B
+2018-12-18 11:09:46 UTC tcp 10.5.5.54 51443 94.228.133.235 80
+2018-12-18 11:09:46 UTC ssl 10.5.5.54 51425 64.158.223.140 443 sni:openx2-match.dotomi.com names:*.dotomi.com/*.dotomi.com/dotomi.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384 origcrt:6CEFAEB5B0BBC64C248A67B19E8A36EADF2D31AB usedcrt:3D5DAF846A51CFBDE41756CCA70148F46E88593D
+2018-12-18 11:09:46 UTC ssl 10.5.5.54 51422 173.241.240.17 443 sni:rtb.openx.net names:*.openx.net/*.openx.net/openx.net sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-AES256-GCM-SHA384 origcrt:B07C75C77B2D2FBC83C101B8293C1DFD33008953 usedcrt:D9C45F4B56DC9402E08039938518E6C7A228570C
+2018-12-18 11:09:47 UTC tcp 10.5.5.54 51442 8.41.222.241 80
+2018-12-18 11:09:47 UTC tcp 10.5.5.54 51444 173.241.240.143 80
+2018-12-18 11:09:47 UTC tcp 10.5.5.54 51446 52.205.153.162 80
+2018-12-18 11:09:47 UTC ssl 10.5.5.54 51433 77.238.185.35 443 sni:pr-bh.ybp.yahoo.com names:*.ybp.yahoo.com/*.ybp.yahoo.com/ybp.yahoo.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 origcrt:2690FC9605A9770B842069E3980C0414D8351A19 usedcrt:D194E3896C31EC8C17DA692FD5A6DF3F56B82160
+2018-12-18 11:09:47 UTC ssl 10.5.5.54 51439 188.165.137.78 443 sni:green.erne.co names:*.erne.co/*.erne.co/erne.co sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384 origcrt:63DB5B2496CCBC8D941CB3B63A18310DB5D15F23 usedcrt:3B37F934ED888BDF44C921D961F8F9B12DD52A1A
+2018-12-18 11:09:47 UTC tcp 10.5.5.54 51449 151.101.134.49 80
+2018-12-18 11:09:47 UTC ssl 10.5.5.54 51445 169.50.137.185 443 sni:um.simpli.fi names:*.simpli.fi/*.simpli.fi/simpli.fi sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384 origcrt:EE6B5DC257D112115F6C7838C8BF1BE0D9C37FEC usedcrt:34BDA5C8E962E242C577BD7E1F213D69B0A3873B
+2018-12-18 11:09:47 UTC tcp 10.5.5.54 51450 52.48.183.127 80
+2018-12-18 11:09:47 UTC tcp 10.5.5.54 51451 34.242.39.94 80
+2018-12-18 11:09:47 UTC tcp 10.5.5.54 51452 34.242.39.94 80
+2018-12-18 11:09:47 UTC tcp 10.5.5.54 51447 52.205.153.162 80
+2018-12-18 11:09:47 UTC tcp 10.5.5.54 51454 35.158.238.250 80
+2018-12-18 11:09:47 UTC tcp 10.5.5.54 51453 185.94.180.124 80
+2018-12-18 11:09:47 UTC tcp 10.5.5.54 51455 185.94.180.124 80
+2018-12-18 11:09:47 UTC tcp 10.5.5.54 51456 85.194.242.103 80
+2018-12-18 11:09:48 UTC tcp 10.5.5.54 51457 188.165.27.173 80
+2018-12-18 11:09:48 UTC tcp 10.5.5.54 51460 193.0.160.128 80
+2018-12-18 11:09:48 UTC tcp 10.5.5.54 51462 18.153.6.26 80
+2018-12-18 11:09:48 UTC tcp 10.5.5.130 56916 204.2.197.204 80
+2018-12-18 11:09:48 UTC tcp 10.5.5.130 56917 204.2.197.204 80
+2018-12-18 11:09:48 UTC tcp 10.5.5.130 56920 77.238.185.35 80
+2018-12-18 11:09:48 UTC tcp 10.5.5.130 56922 3.120.63.71 80
+2018-12-18 11:09:48 UTC tcp 10.5.5.130 56921 77.238.185.35 80
+2018-12-18 11:09:48 UTC tcp 10.5.5.130 56923 3.120.63.71 80
+2018-12-18 11:09:48 UTC ssl 10.5.5.54 51458 69.172.216.55 443 sni:pixel.adsafeprotected.com names:*.adsafeprotected.com/*.adsafeprotected.com/adsafeprotected.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 origcrt:5C9A0C20CC715C8D25C58016F20B1FDAF4365767 usedcrt:97808F2E4C1ED0AC23C4AE7429FAFA06C57E71B0
+2018-12-18 11:09:48 UTC tcp 10.5.5.130 56925 193.0.160.128 80
+2018-12-18 11:09:48 UTC tcp 10.5.5.130 56924 193.0.160.128 80
+2018-12-18 11:09:48 UTC ssl 10.5.5.54 51459 69.172.216.56 443 sni:fw.adsafeprotected.com names:*.adsafeprotected.com/*.adsafeprotected.com/adsafeprotected.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 origcrt:5C9A0C20CC715C8D25C58016F20B1FDAF4365767 usedcrt:8AAEC9CC417D866BE29B00CF260D38B3A150772B
+2018-12-18 11:09:48 UTC tcp 10.5.5.54 51463 193.0.160.153 80
+2018-12-18 11:09:48 UTC tcp 10.5.5.54 51464 216.58.210.130 80
+2018-12-18 11:09:48 UTC tcp 10.5.5.54 51465 69.173.144.136 80
+2018-12-18 11:09:48 UTC tcp 10.5.5.54 51466 88.221.213.187 80
+2018-12-18 11:09:48 UTC ssl 10.5.5.54 51461 34.199.3.248 443 sni:s.clcktrax.com names:tworismo.com/tworismo.com/acexedge.com/adlookr.com/admathhd.com/admthop.com/adnxtr.com/adsrvs.com/adsximg.com/adxyield.com/adzmath.com/cdnsynd.com/clcktrax.com/edgexads.com/iaudienc.com/imganalytics.com/imgsynd.com/mrmserve.com/ninjapd.com/p.acexedge.com/p.adlookr.com/p.admathhd.com/p.admthop.com/p.adnxtr.com/p.adsrvs.com/p.adsximg.com/p.adxyield.com/p.adzmath.com/p.cdnsynd.com/p.clcktrax.com/p.edgexads.com/p.iaudienc.com/p.imganalytics.com/p.imgsynd.com/p.mrmserve.com/p.ninjapd.com/p.pixsrvcs.com/p.pkthop.com/p.pxltgr.com/p.srvmath.com/p.srvsynd.com/p.tagsrvcs.com/p.tpcserve.com/p.tpctrust.com/p.tworismo.com/p.xlgmedia.com/p.yieldmrm.com/pixsrvcs.com/pkthop.com/post.acexedge.com/post.adlookr.com/post.admathhd.com/post.admthop.com/post.adnxtr.com/post.adsrvs.com/post.adsximg.com/post.adxyield.com/post.adzmath.com/post.cdnsynd.com/post.clcktrax.com/post.edgexads.com/post.iaudienc.com/post.imganalytics.com/post.imgsynd.com/post.mrmserve.com/post.ninjapd.com/post.pixsrvcs.com/post.pkthop.com/post.pxltgr.com/post.srvmath.com/post.srvsynd.com/post.tagsrvcs.com/post.tpcserve.com/post.tpctrust.com/post.tworismo.com/post.update.whiteops.com/post.xlgmedia.com/post.yieldmrm.com/pxltgr.com/s.acexedge.com/s.adlookr.com/s.admathhd.com/s.admthop.com/s.adnxtr.com/s.adsrvs.com/s.adsximg.com/s.adxyield.com/s.adzmath.com/s.cdnsynd.com/s.clcktrax.com/s.edgexads.com/s.iaudienc.com/s.imganalytics.com/s.imgsynd.com/s.mrmserve.com/s.ninjapd.com/s.pixsrvcs.com/s.pkthop.com/s.pxltgr.com/s.srvmath.com/s.srvsynd.com/s.tagsrvcs.com/s.tpcserve.com/s.tpctrust.com/s.tworismo.com/s.update.whiteops.com/s.xlgmedia.com/s.yieldmrm.com/srvmath.com/srvsynd.com/t.acexedge.com/t.adlookr.com/t.admathhd.com/t.admthop.com/t.adnxtr.com/t.adsrvs.com/t.adsximg.com/t.adxyield.com/t.adzmath.com/t.cdnsynd.com/t.clcktrax.com/t.edgexads.com/t.iaudienc.com/t.imganalytics.com/t.imgsynd.com/t.mrmserve.com/t.ninjapd.com/t.pixsrvcs.com/t.pkthop.com/t.pxltgr.com/t.srvmath.com/t.srvsynd.com/t.tagsrvcs.com/t.tpcserve.com/t.tpctrust.com/t.tworismo.com/t.update.whiteops.com/t.xlgmedia.com/t.yieldmrm.com/tagsrvcs.com/tpcserve.com/tpctrust.com/u.acexedge.com/u.adlookr.com/u.admathhd.com/u.admthop.com/u.adnxtr.com/u.adsrvs.com/u.adsximg.com/u.adxyield.com/u.adzmath.com/u.cdnsynd.com/u.clcktrax.com/u.edgexads.com/u.iaudienc.com/u.imganalytics.com/u.imgsynd.com/u.mrmserve.com/u.ninjapd.com/u.pixsrvcs.com/u.pkthop.com/u.pxltgr.com/u.srvmath.com/u.srvsynd.com/u.tagsrvcs.com/u.tpcserve.com/u.tpctrust.com/u.tworismo.com/u.xlgmedia.com/u.yieldmrm.com/xlgmedia.com/yieldmrm.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-AES128-GCM-SHA256 origcrt:001B86CC7F893CA88D78D20C4CE09348C3ECC195 usedcrt:1DE9CE4D453132A956ACE3569D439B1EF329027F
+2018-12-18 11:09:48 UTC tcp 10.5.5.54 51468 2.18.69.96 80
+2018-12-18 11:09:48 UTC tcp 10.5.5.54 51467 52.49.239.148 80
+2018-12-18 11:09:48 UTC tcp 10.5.5.54 51469 185.64.189.110 80
+2018-12-18 11:09:48 UTC tcp 10.5.5.54 51470 35.158.175.113 80
+2018-12-18 11:09:49 UTC tcp 10.5.5.54 51472 2.18.68.225 80
+2018-12-18 11:09:49 UTC tcp 10.5.5.54 51473 2.18.68.225 80
+2018-12-18 11:09:49 UTC tcp 10.5.5.54 51474 2.18.68.225 80
+2018-12-18 11:09:49 UTC tcp 10.5.5.54 51475 54.171.35.253 80
+2018-12-18 11:09:49 UTC tcp 10.5.5.54 51476 151.101.134.2 80
+2018-12-18 11:09:49 UTC tcp 10.5.5.54 51478 35.186.234.100 80
+2018-12-18 11:09:49 UTC tcp 10.5.5.54 51479 13.32.90.10 80
+2018-12-18 11:09:49 UTC tcp 10.5.5.54 51477 54.77.164.43 80
+2018-12-18 11:09:49 UTC tcp 10.5.5.54 51480 52.215.248.239 80
+2018-12-18 11:09:49 UTC ssl 10.5.5.54 51471 217.12.15.83 443 sni:ads.yahoo.com names:*.ads.yahoo.com/*.ads.yahoo.com/ad.yieldmanager.com/ads.yahoo.com/ycpi.ad.yieldmanager.com/yahoo.yieldmanager.com/rm.yieldmanager.com/optimizedby.rmxads.com/cookiex.ngd.yahoo.com/ads.bluelithium.com/ad.rmxads.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 origcrt:7A392AB2D479536D2B5F29614411CE7B6A7D6FD4 usedcrt:420642F9A3AED84D23317CF80A23195D5A413126
+2018-12-18 11:09:49 UTC ssl 10.5.5.54 51481 216.58.201.142 443 sni:clients4.google.com names:*.google.com/*.google.com/*.android.com/*.appengine.google.com/*.cloud.google.com/*.g.co/*.gcp.gvt2.com/*.ggpht.cn/*.google-analytics.com/*.google.ca/*.google.cl/*.google.co.in/*.google.co.jp/*.google.co.uk/*.google.com.ar/*.google.com.au/*.google.com.br/*.google.com.co/*.google.com.mx/*.google.com.tr/*.google.com.vn/*.google.de/*.google.es/*.google.fr/*.google.hu/*.google.it/*.google.nl/*.google.pl/*.google.pt/*.googleadapis.com/*.googleapis.cn/*.googlecommerce.com/*.googlevideo.com/*.gstatic.cn/*.gstatic.com/*.gstaticcnapps.cn/*.gvt1.com/*.gvt2.com/*.metric.gstatic.com/*.urchin.com/*.url.google.com/*.youtube-nocookie.com/*.youtube.com/*.youtubeeducation.com/*.youtubekids.com/*.yt.be/*.ytimg.com/android.clients.google.com/android.com/developer.android.google.cn/developers.android.google.cn/g.co/ggpht.cn/goo.gl/google-analytics.com/google.com/googlecommerce.com/source.android.google.cn/urchin.com/www.goo.gl/youtu.be/youtube.com/youtubeeducation.com/youtubekids.com/yt.be sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:C847466B7BBBD0D4A31CE97A40749ECCBAFA5EC0 usedcrt:C9FA16C5A89105FC1C0DDE868C51F88B792E0042
+2018-12-18 11:09:49 UTC tcp 10.5.5.130 56930 173.241.240.143 80
+2018-12-18 11:09:49 UTC tcp 10.5.5.130 56931 173.241.240.143 80
+2018-12-18 11:09:49 UTC tcp 10.5.5.130 56932 173.241.240.143 80
+2018-12-18 11:09:49 UTC ssl 10.5.5.54 51482 13.32.90.99 443 sni:cdn-cf.justpremium.com names:justpremium.com/justpremium.com/*.justpremium.com sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 origcrt:C5E1054DEC9FB4A597989E447D66F874DC73AA81 usedcrt:BA1EE2C3022B291C0E18DF3A58336D03FE7F5014
+2018-12-18 11:09:49 UTC tcp 10.5.5.130 56933 173.241.240.143 80
+2018-12-18 11:09:49 UTC tcp 10.5.5.130 56934 2.18.69.21 80
+2018-12-18 11:09:49 UTC tcp 10.5.5.130 56935 2.18.69.21 80
+2018-12-18 11:09:50 UTC tcp 10.5.5.130 56937 34.254.210.10 80
+2018-12-18 11:09:50 UTC tcp 10.5.5.130 56939 185.94.180.127 80
+2018-12-18 11:09:50 UTC tcp 10.5.5.130 56941 35.158.238.250 80
+2018-12-18 11:09:50 UTC tcp 10.5.5.130 56938 34.254.210.10 80
+2018-12-18 11:09:50 UTC tcp 10.5.5.130 56940 185.94.180.127 80
+2018-12-18 11:09:50 UTC tcp 10.5.5.130 56942 35.158.238.250 80
+2018-12-18 11:09:50 UTC tcp 10.5.5.130 56944 173.241.240.151 80
+2018-12-18 11:09:50 UTC ssl 10.5.5.54 51403 216.58.201.142 443 sni:clients1.google.com names:*.google.com/*.google.com/*.android.com/*.appengine.google.com/*.cloud.google.com/*.g.co/*.gcp.gvt2.com/*.ggpht.cn/*.google-analytics.com/*.google.ca/*.google.cl/*.google.co.in/*.google.co.jp/*.google.co.uk/*.google.com.ar/*.google.com.au/*.google.com.br/*.google.com.co/*.google.com.mx/*.google.com.tr/*.google.com.vn/*.google.de/*.google.es/*.google.fr/*.google.hu/*.google.it/*.google.nl/*.google.pl/*.google.pt/*.googleadapis.com/*.googleapis.cn/*.googlecommerce.com/*.googlevideo.com/*.gstatic.cn/*.gstatic.com/*.gstaticcnapps.cn/*.gvt1.com/*.gvt2.com/*.metric.gstatic.com/*.urchin.com/*.url.google.com/*.youtube-nocookie.com/*.youtube.com/*.youtubeeducation.com/*.youtubekids.com/*.yt.be/*.ytimg.com/android.clients.google.com/android.com/developer.android.google.cn/developers.android.google.cn/g.co/ggpht.cn/goo.gl/google-analytics.com/google.com/googlecommerce.com/source.android.google.cn/urchin.com/www.goo.gl/youtu.be/youtube.com/youtubeeducation.com/youtubekids.com/yt.be sproto:TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256 dproto:TLSv1.2:ECDHE-ECDSA-CHACHA20-POLY1305 origcrt:C847466B7BBBD0D4A31CE97A40749ECCBAFA5EC0 usedcrt:C9FA16C5A89105FC1C0DDE868C51F88B792E0042
+2018-12-18 11:09:50 UTC tcp 10.5.5.130 56943 173.241.240.151 80
+2018-12-18 11:09:50 UTC tcp 10.5.5.130 56945 34.240.39.154 80
+2018-12-18 11:09:51 UTC tcp 10.5.5.130 56946 185.94.180.126 80
+2018-12-18 11:09:51 UTC tcp 10.5.5.130 56947 185.94.180.126 80
+2018-12-18 11:09:51 UTC tcp 10.5.5.130 56948 104.155.76.175 80
+2018-12-18 11:09:51 UTC tcp 10.5.5.130 56949 104.155.76.175 80
+2018-12-18 11:09:51 UTC tcp 10.5.5.130 56952 2.18.68.138 80
+2018-12-18 11:09:51 UTC tcp 10.5.5.130 56953 2.18.68.138 80
+2018-12-18 11:09:51 UTC tcp 10.5.5.130 56956 173.241.240.143 80
+2018-12-18 11:09:52 UTC tcp 10.5.5.130 56963 92.123.33.168 80
+2018-12-18 11:09:52 UTC tcp 10.5.5.130 56964 92.123.33.168 80
+2018-12-18 11:09:53 UTC tcp 10.5.5.130 56965 37.157.2.237 80
+2018-12-18 11:09:53 UTC tcp 10.5.5.130 56966 37.157.2.237 80
+2018-12-18 11:09:53 UTC tcp 10.5.5.130 56970 34.254.123.31 80
+2018-12-18 11:09:53 UTC tcp 10.5.5.130 56971 173.241.240.17 80
+2018-12-18 11:09:53 UTC tcp 10.5.5.130 56972 173.241.240.17 80
+2018-12-18 11:26:29 UTC tcp 10.5.5.130 57131 46.245.181.141 80
+2018-12-18 11:26:29 UTC tcp 10.5.5.130 57132 46.245.181.141 80
+2018-12-18 11:26:29 UTC tcp 10.5.5.130 57133 52.30.150.66 80
+2018-12-18 11:26:29 UTC tcp 10.5.5.130 57134 52.30.150.66 80
+2018-12-18 11:26:29 UTC tcp 10.5.5.130 57135 185.86.139.59 80
+2018-12-18 11:26:29 UTC tcp 10.5.5.130 57137 185.86.139.59 80
+2018-12-18 11:26:29 UTC tcp 10.5.5.130 57136 185.86.139.59 80
+2018-12-18 11:26:29 UTC tcp 10.5.5.130 57142 185.33.223.200 80
+2018-12-18 11:26:29 UTC tcp 10.5.5.130 57138 185.86.139.59 80
+2018-12-18 11:26:29 UTC tcp 10.5.5.130 57139 185.86.139.59 80
+2018-12-18 11:26:29 UTC tcp 10.5.5.130 57140 185.86.139.59 80
+2018-12-18 11:26:29 UTC tcp 10.5.5.130 57141 52.19.194.15 80
+2018-12-18 11:26:29 UTC tcp 10.5.5.130 57143 46.245.181.168 80
+2018-12-18 11:26:29 UTC tcp 10.5.5.130 57144 77.238.185.35 80
+2018-12-18 11:26:29 UTC tcp 10.5.5.130 57148 13.32.90.71 80
+2018-12-18 11:26:29 UTC tcp 10.5.5.130 57146 185.31.128.129 80
+2018-12-18 11:26:29 UTC tcp 10.5.5.130 57147 173.241.240.143 80
+2018-12-18 11:26:29 UTC tcp 10.5.5.130 57149 173.241.240.143 80
+2018-12-18 11:26:29 UTC tcp 10.5.5.130 57145 204.2.197.204 80
+2018-12-18 11:26:29 UTC tcp 10.5.5.130 57150 173.241.240.143 80
+2018-12-18 11:26:29 UTC tcp 10.5.5.130 57151 173.241.240.143 80
+2018-12-18 11:26:29 UTC tcp 10.5.5.130 57152 18.184.40.88 80
+2018-12-18 11:26:30 UTC tcp 10.5.5.130 57153 46.245.181.141 80
+2018-12-18 11:26:30 UTC tcp 10.5.5.130 57154 46.245.181.141 80
+2018-12-18 11:26:30 UTC tcp 10.5.5.130 57155 46.245.181.141 80
+2018-12-18 11:26:30 UTC tcp 10.5.5.130 57156 46.245.181.141 80
+2018-12-18 11:26:30 UTC tcp 10.5.5.130 57157 185.33.223.200 80
+2018-12-18 11:26:30 UTC tcp 10.5.5.130 57158 104.86.110.83 80
+2018-12-18 11:26:31 UTC tcp 10.5.5.130 57159 173.241.240.220 80
+2018-12-18 11:26:31 UTC tcp 10.5.5.130 57160 74.214.194.133 80
+2018-12-18 11:26:31 UTC tcp 10.5.5.130 57165 2.18.69.184 80
+2018-12-18 11:26:32 UTC tcp 10.5.5.130 57166 209.17.68.209 80
+2018-12-18 11:26:32 UTC tcp 10.5.5.130 57171 46.245.181.141 80
+2018-12-18 11:26:32 UTC tcp 10.5.5.130 57172 46.245.181.141 80
+2018-12-18 11:26:34 UTC tcp 10.5.5.130 57176 185.94.180.127 80
+2018-12-18 11:26:34 UTC tcp 10.5.5.130 57175 52.213.250.6 80
+2018-12-18 11:26:34 UTC tcp 10.5.5.130 57178 173.241.240.151 80
+2018-12-18 11:26:34 UTC tcp 10.5.5.130 57177 34.250.41.215 80
+2018-12-18 11:26:35 UTC tcp 10.5.5.130 57182 2.18.68.138 80
+2018-12-18 11:26:35 UTC tcp 10.5.5.130 57185 104.155.76.175 80
+2018-12-18 11:26:35 UTC tcp 10.5.5.130 57183 173.241.240.151 80
+2018-12-18 11:26:35 UTC tcp 10.5.5.130 57186 185.94.180.125 80
+2018-12-18 11:26:35 UTC tcp 10.5.5.130 57184 34.250.41.215 80
+2018-12-18 11:26:35 UTC tcp 10.5.5.130 57188 2.18.69.184 80
+2018-12-18 11:26:35 UTC tcp 10.5.5.130 57189 2.18.69.184 80
+2018-12-18 11:26:35 UTC tcp 10.5.5.130 57191 104.86.110.179 80
+2018-12-18 11:26:35 UTC tcp 10.5.5.130 57190 173.241.240.220 80
+2018-12-18 11:26:36 UTC tcp 10.5.5.130 57192 104.103.108.177 80
+2018-12-18 11:26:36 UTC tcp 10.5.5.130 57196 23.197.254.153 80
+2018-12-18 11:26:36 UTC tcp 10.5.5.130 57195 37.157.2.235 80
+2018-12-18 11:26:36 UTC tcp 10.5.5.130 57197 104.193.83.156 80
+2018-12-18 11:26:36 UTC tcp 10.5.5.130 57199 35.176.109.40 80
+2018-12-18 11:26:36 UTC tcp 10.5.5.130 57201 92.123.5.95 80
+2018-12-18 11:26:36 UTC tcp 10.5.5.130 57204 18.153.11.14 80
+2018-12-18 11:26:36 UTC tcp 10.5.5.130 57203 66.155.71.149 80
+2018-12-18 11:26:36 UTC tcp 10.5.5.130 57206 46.228.164.11 80
+2018-12-18 11:26:36 UTC tcp 10.5.5.130 57209 159.180.84.2 80
+2018-12-18 11:26:36 UTC tcp 10.5.5.130 57211 2.18.69.184 80
+2018-12-18 11:26:36 UTC tcp 10.5.5.130 57200 37.157.2.234 80
+2018-12-18 11:26:36 UTC tcp 10.5.5.130 57213 34.250.41.215 80
+2018-12-18 11:26:37 UTC tcp 10.5.5.130 57215 173.241.240.143 80
+2018-12-18 11:26:37 UTC tcp 10.5.5.130 57228 34.192.141.135 80
+2018-12-18 11:26:37 UTC tcp 10.5.5.130 57231 18.153.11.8 80
+2018-12-18 11:26:37 UTC tcp 10.5.5.130 57233 195.201.56.60 80
+2018-12-18 11:26:37 UTC tcp 10.5.5.130 57234 34.248.229.176 80
+2018-12-18 11:26:37 UTC tcp 10.5.5.130 57237 52.59.59.238 80
+2018-12-18 11:26:37 UTC tcp 10.5.5.130 57232 8.41.222.241 80
+2018-12-18 11:26:38 UTC tcp 10.5.5.130 57245 185.94.180.123 80
+2018-12-18 11:26:38 UTC tcp 10.5.5.130 57247 18.153.6.29 80
+2018-12-18 11:26:38 UTC tcp 10.5.5.130 57250 107.178.254.65 80
+2018-12-18 11:26:38 UTC tcp 10.5.5.130 57253 46.245.181.141 80
+2018-12-18 11:26:38 UTC tcp 10.5.5.130 57255 46.245.181.141 80
+2018-12-18 11:26:38 UTC tcp 10.5.5.130 57254 46.245.181.141 80
+2018-12-18 11:26:38 UTC tcp 10.5.5.130 57256 46.245.181.141 80
+2018-12-18 11:31:22 UTC tcp 10.5.5.130 57381 46.245.181.141 80
+2018-12-18 11:31:23 UTC tcp 10.5.5.130 57384 104.86.110.83 80
+2018-12-18 11:31:23 UTC tcp 10.5.5.130 57382 52.19.194.15 80
+2018-12-18 11:31:23 UTC tcp 10.5.5.130 57383 46.245.181.168 80
+2018-12-18 11:31:23 UTC tcp 10.5.5.130 57385 185.33.223.206 80
+2018-12-18 11:31:23 UTC tcp 10.5.5.130 57386 173.241.240.220 80
+2018-12-18 11:31:23 UTC tcp 10.5.5.130 57387 185.33.223.206 80
+2018-12-18 11:31:23 UTC tcp 10.5.5.130 57388 185.86.139.29 80
+2018-12-18 11:31:23 UTC tcp 10.5.5.130 57389 185.86.139.29 80
+2018-12-18 11:31:23 UTC tcp 10.5.5.130 57390 185.86.139.29 80
+2018-12-18 11:31:23 UTC tcp 10.5.5.130 57391 185.86.139.29 80
+2018-12-18 11:31:23 UTC tcp 10.5.5.130 57393 185.86.139.29 80
+2018-12-18 11:31:23 UTC tcp 10.5.5.130 57395 74.214.194.133 80
+2018-12-18 11:31:23 UTC tcp 10.5.5.130 57394 185.86.139.29 80
+2018-12-18 11:31:23 UTC tcp 10.5.5.130 57399 52.30.150.66 80
+2018-12-18 11:31:25 UTC tcp 10.5.5.130 57406 185.94.180.127 80
+2018-12-18 11:31:25 UTC tcp 10.5.5.130 57405 52.213.250.6 80
+2018-12-18 11:31:25 UTC tcp 10.5.5.130 57409 173.241.240.151 80
+2018-12-18 11:31:25 UTC tcp 10.5.5.130 57407 34.250.41.215 80
+2018-12-18 11:31:25 UTC tcp 10.5.5.130 57410 52.30.150.66 80
+2018-12-18 11:31:27 UTC tcp 10.5.5.130 57413 104.155.76.175 80
+2018-12-18 11:31:27 UTC tcp 10.5.5.130 57412 185.94.180.125 80
+2018-12-18 11:31:27 UTC tcp 10.5.5.130 57411 34.250.41.215 80
+2018-12-18 11:31:27 UTC tcp 10.5.5.130 57416 188.165.4.142 80
+2018-12-18 11:31:27 UTC tcp 10.5.5.130 57417 185.94.180.125 80
+2018-12-18 11:31:27 UTC tcp 10.5.5.130 57418 173.241.240.220 80
+2018-12-18 11:31:27 UTC tcp 10.5.5.130 57419 173.241.240.143 80
+2018-12-18 11:31:27 UTC tcp 10.5.5.130 57422 173.241.240.143 80
+2018-12-18 11:31:27 UTC tcp 10.5.5.130 57424 178.62.241.118 80
+2018-12-18 11:31:27 UTC tcp 10.5.5.130 57425 89.163.211.229 80
+2018-12-18 11:31:27 UTC tcp 10.5.5.130 57428 2.18.68.138 80
+2018-12-18 11:31:27 UTC tcp 10.5.5.130 57426 85.114.159.93 80
+2018-12-18 11:31:27 UTC tcp 10.5.5.130 57434 34.250.41.215 80
+2018-12-18 11:31:27 UTC tcp 10.5.5.130 57436 185.94.180.123 80
+2018-12-18 11:31:27 UTC tcp 10.5.5.130 57438 85.194.242.103 80
+2018-12-18 11:31:28 UTC tcp 10.5.5.130 57444 85.194.242.103 80
+2018-12-18 11:31:28 UTC tcp 10.5.5.130 57445 52.57.216.194 80
+2018-12-18 11:31:29 UTC tcp 10.5.5.130 57446 87.98.252.5 80
+2018-12-18 11:31:34 UTC tcp 10.5.5.130 57449 94.228.133.235 80
+2018-12-18 11:31:34 UTC tcp 10.5.5.130 57451 193.70.45.30 80
+2018-12-18 11:31:34 UTC tcp 10.5.5.130 57450 54.246.129.36 80
+2018-12-18 11:31:36 UTC tcp 10.5.5.130 57453 46.245.181.141 80
+2018-12-18 11:31:37 UTC tcp 10.5.5.130 57454 46.245.181.168 80
+2018-12-18 11:31:37 UTC tcp 10.5.5.130 57455 185.86.139.29 80
+2018-12-18 11:31:37 UTC tcp 10.5.5.130 57456 185.86.139.29 80
+2018-12-18 11:31:37 UTC tcp 10.5.5.130 57457 185.33.223.206 80
+2018-12-18 11:31:37 UTC tcp 10.5.5.130 57458 185.33.223.206 80
+2018-12-18 11:31:37 UTC tcp 10.5.5.130 57459 185.86.139.29 80
+2018-12-18 11:31:38 UTC tcp 10.5.5.130 57460 185.86.139.29 80
+2018-12-18 11:31:38 UTC tcp 10.5.5.130 57461 185.86.139.29 80
+2018-12-18 11:31:38 UTC tcp 10.5.5.130 57462 185.86.139.29 80
