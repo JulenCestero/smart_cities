@@ -7,7 +7,7 @@ sudo echo 'Include /etc/phpmyadmin/apache.conf' >> /etc/apache2/apache2.conf
 sudo service apache2 restart
 # Install Python3
 sudo apt-get install python3
-sudo apt-get install ipython
+sudo apt-get install ipython # Optional
 sudo apt-get install python3-pip
 # Install Motion
 sudo apt-get install motion # https://www.maketecheasier.com/setup-motion-detection-webcam-ubuntu/
