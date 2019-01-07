@@ -48,12 +48,11 @@ function redirect($url) {
                 <div class="row-fluid">
                     <div class="span12">
                         <div class="span6" bgcolor="#FF0000">
-                            <h1 class="text-success">Donostyle Management</h1>
+                            <h1 class="text-success" style="color:#FFFFFF;">Hogwarts services</h1>
                         </div>
 
                         <div class="span4 offset2" style="margin-top:15px;">
-                            <button class="btn pull-right" type="button" onclick="window.location.href='logout.php'">Cerrar
-                                sesión</button>
+                            <button class="btn pull-right" type="button" onclick="window.location.href='logout.php'">Logout</button>
                         </div>
                     </div>
                 </div>
@@ -65,10 +64,10 @@ function redirect($url) {
                                 <li>
                                     <?php 
                                     if ($_SESSION['privileges'] == 0){
-                                        echo('<a href="hub_admin.php">Hub principal</a>');
+                                        echo('<a href="welcomeWizard.php">Home</a>');
                                     }
                                     else if ($_SESSION['privileges'] == 1){
-                                        echo('<a href="hub_guide.php">Hub principal</a>');
+                                        echo('<a href="welcomeAdmin.php">Home</a>');
                                     }
                                     else{
                                         unset($_SESSION['username']);
@@ -83,25 +82,7 @@ function redirect($url) {
                                 <li>
                                     <?php 
                                     if ($_SESSION['privileges'] == 0){
-                                        echo('<a href="guides.php">Guías</a>');
-                                    }
-                                    else if ($_SESSION['privileges'] == 1){
-                                        echo('<a href="finantial_guide.php">Finanzas</a>');
-                                    }
-                                    else{
-                                        unset($_SESSION['username']);
-                                        unset($_SESSION['password']);
-                                        unset($_SESSION['privileges']);
-                                        unset($_SESSION['id']);
-                                        redirect("login.html");
-                                    }
-                                    ?>
-                                </li>
-
-                                <li>
-                                    <?php 
-                                    if ($_SESSION['privileges'] == 0){
-                                        echo('<a href="create_new_tour.php">Nuevo Tour</a>');
+                                        //echo('<a href="guides.php">Guías</a>');
                                     }
                                     else if ($_SESSION['privileges'] == 1){
                                         //echo('<a href="finantial_guide.php">Finanzas</a>');
@@ -117,7 +98,7 @@ function redirect($url) {
                                 </li>
 
                                 <li>
-                                    <a href="#">Ayuda</a>
+                                    <a href="#">Help</a>
                                 </li>
                             </ul>
                         </div>
