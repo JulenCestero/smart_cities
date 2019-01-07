@@ -1,8 +1,8 @@
 # MySQL
 - Creados usuarios *phpmyadmin*, *admin* y *wizard* para acceder a las tablas. Dependiendo del tipo de usuario, tendrán ciertos privilegios
   - *Phpmyadmin* podrá acceder a todas las tablas de admin y user (quitar este acceso en el futuro)
-  - *Admin* será usado para los servicios del usuario administrador. Pass: Admin_Smart-cities4
-  - *Wizard* será usado para los servicios del usuario normal. Pass: Wizard_Smart-cities4
+  - *Admin* Pass: Admin_Smart-cities4. Será usado para los servicios del usuario administrador. Además, se usará para todas las comprobaciones de login en la base de datos
+  - *Wizard* Pass: Wizard_Smart-cities4. Será usado para los servicios del usuario normal. Se usará sobre todo para introducir sugerencias en la BBDD
 
     ```sql
     CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password'; -- Create new users

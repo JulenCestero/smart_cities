@@ -1,3 +1,6 @@
+<?php
+include 'header.php';
+?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"><head>
     <!--[if gte mso 9]><xml>
      <o:OfficeDocumentSettings>
@@ -394,7 +397,6 @@ a[x-apple-data-detectors=true] {
     </button>
   <!--[if mso]></center></v:textbox></v:roundrect></td></tr></table><![endif]-->
 </div>
-<input type="hidden" name="user" value="#"> <!-- Cambiar el # por el usuario de la sesión-->
 </form>
                   
               <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
