@@ -36,7 +36,6 @@ function redirect($url) {
                         </div>
                     </div>
                 </div>
-
                 <div class="navbar">
                     <div class="navbar-inner">
                         <div class="container">
@@ -47,7 +46,7 @@ function redirect($url) {
                                         echo('<a href="welcomeWizard.php">Home</a>');
                                     }
                                     else if ($_SESSION['privileges'] == 1){
-                                        echo('<a href="welcomeAdmin.php">Home</a>');
+                                        echo('<a href="welcomeDumbeldore.php">Home</a>');
                                     }
                                     else{
                                         session_destroy();
