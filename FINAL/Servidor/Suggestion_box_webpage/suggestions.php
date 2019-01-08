@@ -388,7 +388,7 @@ a[x-apple-data-detectors=true] {
 </div>
                   
                   
-<form action="suggestion_handler.php" id="sug_form">
+<form action="suggestion_handler.php" id="sug_form" method="POST">
   
 <div align="center" class="button-container center " style="padding-right: 10px; padding-left: 10px; padding-top:10px; padding-bottom:10px;">
   <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0; border-collapse: collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;"><tr><td style="padding-right: 10px; padding-left: 10px; padding-top:10px; padding-bottom:10px;" align="center"><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="" style="height:49pt; v-text-anchor:middle; width:141pt;" arcsize="91%" strokecolor="#EE4EAA" fillcolor="#EE4EAA"><w:anchorlock/><v:textbox inset="0,0,0,0"><center style="color:#ffffff; font-family:'Oxygen', 'Trebuchet MS', Helvetica, sans-serif; font-size:28px;"><![endif]-->

@@ -22,10 +22,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 			else redirect("welcomeWizard.php");
 		}
 	}
-	//redirect("login.html"); // Login fallido
+	redirect("login.html"); // Login fallido
 }
 else{
-	//redirect("login.html"); // Login fallido
+	redirect("login.html"); // Login fallido
 }
 
 function redirect($url){
