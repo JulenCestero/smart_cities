@@ -5,7 +5,7 @@ include 'header.php';
 if($_SERVER["REQUEST_METHOD"] == "POST"){
     $suggestion = test_input($_POST["suggestion"]);
     $id = $_SESSION['id'];
-    $sql = "INSERT INTO suggestions VALUES (NULL, '$suggestion', $id)";
+    $sql = "INSERT INTO suggestions VALUES (NULL, NULL, '$suggestion', $id)";
     $conn = new mysqli('localhost', 'wizard', 'Wizard_Smart-cities4', 'Hogwarts');
     if ($conn->query($sql) === TRUE) {
         redirect("suggestions.php");
