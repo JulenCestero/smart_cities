@@ -6,29 +6,9 @@
 <?php
 /* Comprobación de login correcto */
 session_start();
-$conn = new mysqli('localhost', 'admin', 'Admin_Smart-cities4', 'Hogwarts');
-if($conn->connect_error){
-    die("Connection failed: " . $conn->connect_error);
-}
-$conn->set_charset("utf8");
-$sql = "SELECT password FROM users WHERE username = '" . $_SESSION['username'] . "'";
-$result = $conn->query($sql);
-if($result->num_rows == 1){
-    $passwordRow = $result->fetch_assoc();
-    $myHashPass = $passwordRow['password'];
-    if($myHashPass != $_SESSION['password']){
-        unset($_SESSION['username']);
-        unset($_SESSION['password']);
-        unset($_SESSION['id']);
-        unset($_SESSION['privileges']);
-        redirect("login.html"); // Login fallido
-    }
-}
-else{
-    unset($_SESSION['username']);
-    unset($_SESSION['password']);
-    unset($_SESSION['id']);
-    unset($_SESSION['privileges']);
+
+if($_SESSION['logged'] != 1){
+    session_destroy();
     redirect("login.html"); // Login fallido
 }
 
@@ -70,10 +50,7 @@ function redirect($url) {
                                         echo('<a href="welcomeAdmin.php">Home</a>');
                                     }
                                     else{
-                                        unset($_SESSION['username']);
-                                        unset($_SESSION['password']);
-                                        unset($_SESSION['privileges']);
-                                        unset($_SESSION['id']);
+                                        session_destroy();
                                         redirect("login.html");
                                     }
                                     ?>
@@ -88,10 +65,7 @@ function redirect($url) {
                                         //echo('<a href="finantial_guide.php">Finanzas</a>');
                                     }
                                     else{
-                                        unset($_SESSION['username']);
-                                        unset($_SESSION['password']);
-                                        unset($_SESSION['privileges']);
-                                        unset($_SESSION['id']);
+                                        session_destroy();
                                         redirect("login.html");
                                     }
                                     ?>

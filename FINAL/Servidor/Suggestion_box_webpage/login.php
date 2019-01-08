@@ -2,22 +2,22 @@
 session_start();
 $name = $password = "";
 if($_SERVER["REQUEST_METHOD"] == "POST"){
-	$user = hash("sha256", test_input($_POST["user"]));
-	$password = hash("sha256", test_input($_POST["password"]));
+	$user = hash("sha256", test_input($_POST["user"])); // NEEDS SANETIZATION
+	$password = hash("sha256", test_input($_POST["password"])); // NEEDS SANETIZATION
 	$conn = new mysqli('localhost', 'admin', 'Admin_Smart-cities4', 'Hogwarts');
 	if($conn->connect_error){
 		die("Connection failed: " . $conn->connect_error);
 	}
 	$conn->set_charset("utf8");
-	$sql = "SELECT password, id FROM users WHERE username='" . $user . "'";
+	$sql = "SELECT password, id, privileges FROM users WHERE username='" . $user . "'";
 	$result = $conn->query($sql);
 	if($result->num_rows > 0){
 		$passwordRow = $result->fetch_assoc();
 		$myHashPass  = $passwordRow['password'];
 		if($myHashPass == $password){
-			$_SESSION['username'] = $user;
-			$_SESSION['password'] = $myHashPass;
+			$_SESSION['logged'] = 1;
 			$_SESSION['id']	      = $passwordRow['id'];
+			$_SESSION['privileges'] = $passwordRow['privileges'];
 			if($_SESSION['id'] == 2) redirect("welcomeDumbeldore.php");
 			else redirect("welcomeWizard.php");
 		}

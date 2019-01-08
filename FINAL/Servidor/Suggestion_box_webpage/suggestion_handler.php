@@ -20,8 +20,9 @@ else{
 
 function test_input($data){
 	$data = trim($data);
-	$data = stripslashes($data);
-	return htmlspecialchars($data);
+    $data = stripslashes($data);
+    $data = htmlspecialchars($data); 
+	return filter_var($data, FILTER_SANITIZE_STRING); // http://php.net/manual/es/filter.filters.sanitize.php
 }
 ?>
     
