@@ -1,3 +1,13 @@
+#Cambiar el DNS
+#sudo nano /etc/network/interfaces
+#192.168.4.4
+sudo nano /etc/resolv.conf
+#Comprobar internet
+
+#Matar procesos
+sudo systemctl stop systemd-resolved
+
+#Configurar Wi-Fi
 systemctl stop NetworkManager.service
 #!/bin/bash
 # Usage: ./initSoftAP
@@ -34,4 +44,8 @@ sysctl -w net.ipv4.ip_forward=1
 ########## Start hostapd ###########
 hostapd hostapd.conf
 killall dnsmasq
+
+
+## Videocamara
+sudo iptables -t nat -A PREROUTING -i enx00606e439261 -p tcp -j DNAT --to-destination 10.0.0.2
 

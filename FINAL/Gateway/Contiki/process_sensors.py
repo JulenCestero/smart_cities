@@ -4,7 +4,7 @@ import MySQLdb
  
 #establish connection to MySQL. You'll have to change this for your database.
 #dbConn = MySQLdb.connect("localhost","database_username","password","database_name") or die ("could not connect to database")
-dbConn = MySQLdb.connect("localhost","admin","Admin_Smart-cities4","Hogwarts") or die ("could not connect to database")
+dbConn = MySQLdb.connect("192.168.4.118","contiki","Contiki_Smart-cities4","Hogwarts") or die ("could not connect to database")
 #open a cursor to the database
 #cursor = dbConn.cursor()
  
