@@ -1,4 +1,3 @@
-sudo -s
 # Install LAMP + Phpmyadmin
 sudo apt-get install mysql-server
 sudo mysql_secure_installation # Seleccionar y, 1, pass: Smart-cities4, y, y, y, y, y, 
@@ -9,6 +8,7 @@ sudo service apache2 restart
 sudo apt-get install python3
 sudo apt-get install ipython # Optional
 sudo apt-get install python3-pip
+sudo apt-get install python-pip
 # Install Motion
 sudo apt-get install motion # https://www.maketecheasier.com/setup-motion-detection-webcam-ubuntu/
 cd ~
@@ -21,3 +21,11 @@ sudo apt-get install ffmpeg
 # Install Grafana
 wget https://dl.grafana.com/oss/release/grafana_5.4.2_amd64.deb
 sudo dpkg -i grafana_5.4.2_amd64.deb
+sudo service grafana-server start # For starting
+# Extra
+sudo apt-get install libmysqlclient-dev
+
+
+
+
+pip install -r requirements.txt
