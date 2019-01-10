@@ -1,6 +1,8 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 include 'header.php';
-
 ?>
 <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
@@ -87,6 +89,30 @@ include 'header.php';
 }
 </style>
 <body class="clean-body" style="margin: 0;padding: 0;-webkit-text-size-adjust: 100%;background-color: #1C5FD4">
-<div class="container">
-  
+<div class="container" style="width:100%; margin: 0 auto;">
+    <iframe src="http://localhost:3000" frameborder="0" scrolling="no"  height="80%" width="80% onload="resizeIframe(this)" />
 </div>
+<script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+</script>
+<script type="text/javascript">
+  $.ajax(
+    {
+      type: 'GET',
+      url: 'http://localhost:3000/d/rEGy3qUmz/sensors?orgId=1&from=1547116627777&to=1547138227778',
+      contentType: 'application/json',
+      beforeSend: function(xhr, settings) {
+        xhr.setRequestHeader(
+          'Authorization', 'Bearer eyJrIjoiUDh3WG9iZUY2RkJ3Zk5Jdm1oNW9xNXg4ZThOYlYyQXciLCJuIjoiRHVtYmVsZG9yZSIsImlkIjoxfQ=='
+        );
+      },
+      success: function(data) {
+        
+        $('#dashboard').attr('src', 'http://localhost:3000/d/rEGy3qUmz/sensors?orgId=1&from=1547116627777&to=1547138227778');
+        $('#dashboard').contents().find('html').html(data);
+      }
+    }
+  );
+</script>
