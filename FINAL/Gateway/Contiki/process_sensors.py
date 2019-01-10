@@ -27,9 +27,9 @@ while True:
    print "pieces[2]=",pieces[2]
    #Here we are going to insert the data into the Database
    try:
-     cursor.execute("INSERT INTO sensors (mote,light,temperature) VALUES (%s,%s,%s)", (pieces[1],pieces[2],pieces[3]))
-     dbConn.commit() #commit the insert
-     cursor.close()  #close the cursor
+    #  cursor.execute("INSERT INTO sensors (mote,light,temperature) VALUES (%s,%s,%s)", (pieces[0],pieces[1],pieces[2]))
+    #  dbConn.commit() #commit the insert
+    #  cursor.close()  #close the cursor
    except MySQLdb.IntegrityError:
      print "failed to insert data"
    finally:

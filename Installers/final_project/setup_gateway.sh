@@ -16,3 +16,10 @@ sudo apt-get install dnsmasq # Already installed
 # Security
 sudo apt-get install freeradius
 sudo apt-get install openssl # Already installed    
+# Extra 
+sudo apt-get install libmysqlclient-dev
+
+
+
+
+pip install -r requirements.txt192.168.4.119192.168.4.119
