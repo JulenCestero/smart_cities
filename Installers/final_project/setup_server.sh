@@ -18,3 +18,6 @@ sudo cp /etc/motion/motion.conf ~/.motion/motion.conf # Create the config file f
 sudo add-apt-repository ppa:jonathonf/ffmpeg-4
 sudo apt-get update
 sudo apt-get install ffmpeg
+# Install Grafana
+wget https://dl.grafana.com/oss/release/grafana_5.4.2_amd64.deb
+sudo dpkg -i grafana_5.4.2_amd64.deb

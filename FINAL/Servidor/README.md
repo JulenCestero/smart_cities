@@ -13,3 +13,9 @@
 - Creadas tablas *users* y *suggestions*
 - Creado usuario **root** con password **toor**. 
 - [ ] Queda a la espera crear usuario admin **Dumbeldore** con su password (Grindelward?)
+
+# Grafana
+- Se ha instalado Grafana para visualizar los datos de los sensores. Acceso: admin + hacking
+- API key para Dumbeldore: curl -H "Authorization: Bearer eyJrIjoia0U3YlBXOWdxNU5JcGU4NTNvb0FGVDRRUmZONFVtYU8iLCJuIjoiRHVtYmVsZG9yZSIsImlkIjoxfQ==" http://localhost:3000/api/dashboards/home
+- https://stackoverflow.com/questions/42303800/how-to-display-grafana-graphs-in-my-websites-admin-panel-securely
+- API key para Admin: curl -H "Authorization: Bearer eyJrIjoibWN5NnZ3bTRIYXhrcldsbjV6U2x3eXdjRzFvc1BwVTAiLCJuIjoiQWRtaW4iLCJpZCI6MX0=" http://localhost:3000/api/dashboards/home
