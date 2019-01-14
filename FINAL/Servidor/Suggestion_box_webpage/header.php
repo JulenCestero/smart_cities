@@ -61,7 +61,37 @@ function redirect($url) {
                                         //echo('<a href="guides.php">Guías</a>');
                                     }
                                     else if ($_SESSION['privileges'] == 1){
-                                        //echo('<a href="finantial_guide.php">Finanzas</a>');
+                                        echo('<a href="suggestion_reader.php">Sugerencias</a>');
+                                    }
+                                    else{
+                                        session_destroy();
+                                        redirect("login.html");
+                                    }
+                                    ?>
+                                </li>
+
+                                <li>
+                                    <?php 
+                                    if ($_SESSION['privileges'] == 0){
+                                        //echo('<a href="guides.php">Guías</a>');
+                                    }
+                                    else if ($_SESSION['privileges'] == 1){
+                                        echo('<a href="motion.php">Motion</a>');
+                                    }
+                                    else{
+                                        session_destroy();
+                                        redirect("login.html");
+                                    }
+                                    ?>
+                                </li>
+                                
+                                <li>
+                                <?php 
+                                    if ($_SESSION['privileges'] == 0){
+                                        //echo('<a href="guides.php">Guías</a>');
+                                    }
+                                    else if ($_SESSION['privileges'] == 1){
+                                        echo('<a href="sensores.php">Sensores</a>');
                                     }
                                     else{
                                         session_destroy();

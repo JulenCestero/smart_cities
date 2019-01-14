@@ -1,6 +1,5 @@
 <?php
 include 'header.php';
-
 ?>
 <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
@@ -87,6 +86,11 @@ include 'header.php';
 }
 </style>
 <body class="clean-body" style="margin: 0;padding: 0;-webkit-text-size-adjust: 100%;background-color: #1C5FD4">
-<div class="container">
-  
+<div class="container" style="width:100%; margin: 0 auto;">
+    <iframe src="http://192.168.4.119:8081/" frameborder="0" scrolling="no"  height="80%" width="80% onload="resizeIframe(this)" />
 </div>
+<script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+</script>
