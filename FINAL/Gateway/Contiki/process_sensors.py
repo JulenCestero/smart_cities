@@ -25,11 +25,14 @@ while True:
    print "pieces[0]=",pieces[0]
    print "pieces[1]=",pieces[1]
    print "pieces[2]=",pieces[2]
+   skyMote.write("9\n")
+   skyMote.write("1\n")
+   skyMote.write("0\n")	
    #Here we are going to insert the data into the Database
    try:
-    #  cursor.execute("INSERT INTO sensors (mote,light,temperature) VALUES (%s,%s,%s)", (pieces[0],pieces[1],pieces[2]))
-    #  dbConn.commit() #commit the insert
-    #  cursor.close()  #close the cursor
+     cursor.execute("INSERT INTO sensors (mote,light,temperature) VALUES (%s,%s,%s)", (pieces[0],pieces[1],pieces[2]))
+     dbConn.commit() #commit the insert
+     cursor.close()  #close the cursor
    except MySQLdb.IntegrityError:
      print "failed to insert data"
    finally:
