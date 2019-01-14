@@ -4,6 +4,25 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 include 'header.php';
 ?>
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("dashboard").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "http://localhost:3000/d/fqAjZzwmk/sensors?orgId=1&from=1547140524706&to=1547155364358", true);
+  xhttp.setRequestHeader("Content-type", "application/json");
+  xhttp.setRequestHeader("Authorization", "Bearer eyJrIjoiNEd0QVdXVFdNcTJRRDFJMk5yTXFSaVBGVzB2MmFyMDYiLCJuIjoiRHVtYmVsZG9yZSIsImlkIjoxfQ==");
+  xhttp.send();
+}
+</script>
+<script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+</script>
 <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -90,29 +109,28 @@ include 'header.php';
 </style>
 <body class="clean-body" style="margin: 0;padding: 0;-webkit-text-size-adjust: 100%;background-color: #1C5FD4">
 <div class="container" style="width:100%; margin: 0 auto;">
-    <iframe src="http://localhost:3000" frameborder="0" scrolling="no"  height="80%" width="80% onload="resizeIframe(this)" />
+    <iframe id="dashboard" frameborder="0" scrolling="no"  height="80%" width="80%"" onload="resizeIframe(this);loadDoc();" />
 </div>
-<script>
-  function resizeIframe(obj) {
-    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
-  }
-</script>
-<script type="text/javascript">
+
+<!-- <script type="text/javascript">
   $.ajax(
     {
       type: 'GET',
-      url: 'http://localhost:3000/d/rEGy3qUmz/sensors?orgId=1&from=1547116627777&to=1547138227778',
+      url: 'http://localhost:3000/d/fqAjZzwmk/sensors?orgId=1&from=1547140524706&to=1547155364358',
       contentType: 'application/json',
       beforeSend: function(xhr, settings) {
         xhr.setRequestHeader(
-          'Authorization', 'Bearer eyJrIjoiUDh3WG9iZUY2RkJ3Zk5Jdm1oNW9xNXg4ZThOYlYyQXciLCJuIjoiRHVtYmVsZG9yZSIsImlkIjoxfQ=='
+          'Authorization', 'Basic ' + window.btoa('admin:Smart-cities4')
         );
       },
       success: function(data) {
-        
-        $('#dashboard').attr('src', 'http://localhost:3000/d/rEGy3qUmz/sensors?orgId=1&from=1547116627777&to=1547138227778');
+        alert('Caca');
+        $('#dashboard').attr('src', 'http://localhost:3000/d/fqAjZzwmk/sensors?orgId=1&from=1547140524706&to=1547155364358');
         $('#dashboard').contents().find('html').html(data);
+      }
+      error: function(data){
+        alert('Caca');
       }
     }
   );
-</script>
+</script> -->
