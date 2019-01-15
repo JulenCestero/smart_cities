@@ -31,6 +31,8 @@ sudo apt-get install docker-ce
 sudo apt-get install docker-compose
 sudo groupadd docker
 sudo usermod -aG docker $USER
+# DNS
+sudo apt-get install bind9 bind9utils bind9-doc
 # Extra
 sudo apt-get install libmysqlclient-dev
 
