@@ -4,6 +4,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 include 'header.php';
 ?>
+
 <script>
 function loadDoc() {
   var xhttp = new XMLHttpRequest();
@@ -109,7 +110,82 @@ function loadDoc() {
 </style>
 <body class="clean-body" style="margin: 0;padding: 0;-webkit-text-size-adjust: 100%;background-color: #1C5FD4">
 <div class="container" style="width:100%; margin: 0 auto;">
-    <iframe id="dashboard" frameborder="0" scrolling="no"  height="80%" width="80%"" onload="resizeIframe(this);loadDoc();" />
+  <div class="row">
+    <div class="column">
+    <!-- <iframe id="dashboard" frameborder="0" scrolling="no"  height="80%" width="80%"" onload="loadDoc(); " /> -->
+    </div>
+    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" id="buttons" method="POST">
+      <div class="column">
+        <div class="row" style="background-color: #6895E1; padding:5px 15px 15px 15px;">
+          <input type="checkbox" name="n_lights[]" value="9"> Master
+          <input type="checkbox" name="n_lights[]" value="0"> Slave 0
+          <input type="checkbox" name="n_lights[]" value="1"> Slave 1<br>
+          <div class="column">
+            <h3>Automatic</h3>
+              <input type="submit" name="auto" value="Automatic"></input>
+          </div>
+          <div class="column">
+            <h3>Manual</h3>
+            <input type="submit" name="light0" value="0 Leds"></input>
+            <input type="submit" name="light1" value="1 Led"></input>
+            <input type="submit" name="light2" value="2 Leds"></input>
+            <input type="submit" name="light3" value="3 Leds"></input>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div> 
+  <?php
+if ($_SERVER["REQUEST_METHOD"] == "POST"){
+  if(!empty($_POST['n_lights'])){
+    $n_lights = $_POST['n_lights'];
+    $n = count($n_lights);
+    $conn = new mysqli('localhost', 'admin', 'Admin_Smart-cities4', 'Hogwarts');
+    if($conn->connect_error){
+      die("Connection failed: " . $conn->connect_error);
+    }
+    $conn->set_charset("utf8");
+    for($ii = 0; $ii < $n; $ii++){
+      $sensor_id = $n_lights[$ii];
+      if(isset($_POST['auto'])) {
+        $sql = "UPDATE sensor_status SET mode = 0 WHERE sensor_status.mote = " .  $sensor_id;
+      }else if(isset($_POST['light0'])){
+        $sql = "UPDATE sensor_status SET mode = 1, n_leds = 0 WHERE sensor_status.mote = " .  $sensor_id;
+      }else if (isset($_POST['light1'])){
+        $sql = "UPDATE sensor_status SET mode = 1, n_leds = 1 WHERE sensor_status.mote = " .  $sensor_id;
+      }else if (isset($_POST['light2'])){
+        $sql = "UPDATE sensor_status SET mode = 1, n_leds = 2 WHERE sensor_status.mote = " .  $sensor_id;
+      }else if (isset($_POST['light3'])){
+        $sql = "UPDATE sensor_status SET mode = 1, n_leds = 3 WHERE sensor_status.mote = " .  $sensor_id;
+      }else{
+        session_destroy();
+        redirect("login.html");
+      }
+      if ($conn->query($sql) === TRUE){
+        echo('Success!'); // Success
+      } else {
+        echo("Error: " . $sql . "<br>" . $conn->error);
+      }
+    }
+  }
+  
+}
+function IsChecked($chkname,$value)
+    {
+        if(!empty($_POST[$chkname]))
+        {
+            foreach($_POST[$chkname] as $chkval)
+            {
+                if($chkval == $value)
+                {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+?>
 </div>
 
 <!-- <script type="text/javascript">

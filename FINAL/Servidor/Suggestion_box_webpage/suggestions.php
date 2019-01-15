@@ -310,7 +310,7 @@ a[x-apple-data-detectors=true] {
               <!--[if (mso)|(IE)]><td align="center" width="294" style=" width:294px; padding-right: 0px; padding-left: 15px; padding-top:15px; padding-bottom:5px; border-top: 6px solid #FFFFFF; border-left: 6px solid #FFFFFF; border-bottom: 0px solid #FFFFFF; border-right: 0px solid #FFFFFF;" valign="top"><![endif]-->
             <div class="col num6" style="max-width: 320px;min-width: 300px;display: table-cell;vertical-align: top;">
               <div style="background-color: transparent; width: 100% !important;">
-              <!--[if (!mso)&(!IE)]><!--><div style="border-top: 6px solid #FFFFFF; border-left: 6px solid #FFFFFF; border-bottom: 0px solid #FFFFFF; border-right: 0px solid #FFFFFF; padding-top:15px; padding-bottom:5px; padding-right: 0px; padding-left: 15px;"><!--<![endif]-->
+              <!--[if (!mso)&(!IE)]><!--><div style="border-top: 6px solid #FFFFFF; border-left: 6px solid #FFFFFF; border-bottom: 0px solid #FFFFFF; border-right: 0px solid #FFFFFF; padding-top:13px; padding-bottom:5px; padding-right: 0px; padding-left: 25px;"><!--<![endif]-->
 
                   
                     <div class="">
@@ -383,7 +383,7 @@ a[x-apple-data-detectors=true] {
                   
                     <div class="" align="center">
 	<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 10px; padding-left: 10px; padding-top: 0px; padding-bottom: 10px;"><![endif]-->
-<textarea name="suggestion" form="sug_form" rows="15" cols="69"></textarea>
+<textarea name="suggestion" form="sug_form" rows="15" style="width: 85%"></textarea>
 	<!--[if mso]></td></tr></table><![endif]-->
 </div>
                   
@@ -392,7 +392,7 @@ a[x-apple-data-detectors=true] {
   
 <div align="center" class="button-container center " style="padding-right: 10px; padding-left: 10px; padding-top:10px; padding-bottom:10px;">
   <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0; border-collapse: collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;"><tr><td style="padding-right: 10px; padding-left: 10px; padding-top:10px; padding-bottom:10px;" align="center"><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="" style="height:49pt; v-text-anchor:middle; width:141pt;" arcsize="91%" strokecolor="#EE4EAA" fillcolor="#EE4EAA"><w:anchorlock/><v:textbox inset="0,0,0,0"><center style="color:#ffffff; font-family:'Oxygen', 'Trebuchet MS', Helvetica, sans-serif; font-size:28px;"><![endif]-->
-    <button type="submit" style="color: #ffffff; background-color: #EE4EAA; border-radius: 60px; -webkit-border-radius: 60px; -moz-border-radius: 60px; max-width: 189px; width: 69px;width: auto; border-top: 0px solid transparent; border-right: 0px solid transparent; border-bottom: 0px solid transparent; border-left: 0px solid transparent; padding-top: 5px; padding-right: 60px; padding-bottom: 5px; padding-left: 60px; font-family: 'Oxygen', 'Trebuchet MS', Helvetica, sans-serif; text-align: center; mso-border-alt: none;">
+    <button type="submit" style="color: #ffffff; background-color: #EE4EAA; border-radius: 60px; -webkit-border-radius: 60px; -moz-border-radius: 60px; max-width: 400px; width: 69px;width: auto; border-top: 0px solid transparent; border-right: 0px solid transparent; border-bottom: 0px solid transparent; border-left: 0px solid transparent; padding-top: 5px; padding-right: 60px; padding-bottom: 5px; padding-left: 60px; font-family: 'Oxygen', 'Trebuchet MS', Helvetica, sans-serif; text-align: center; mso-border-alt: none;">
       <span style="font-family:'Oxygen', 'Trebuchet MS', Helvetica, sans-serif;font-size:16px;line-height:32px;"><span style="font-size: 28px; line-height: 60px;"><strong>Send<span style="line-height: 48px;"></span></strong></span></span>
     </button>
   <!--[if mso]></center></v:textbox></v:roundrect></td></tr></table><![endif]-->
