@@ -4,10 +4,10 @@
 sudo nano /etc/resolv.conf
 #Comprobar internet
 
-sudo ifconfig wlxe894f60bc38a up
+#sudo ifconfig wlxe894f60bc38a up
 
 #Matar procesos
-sudo systemctl stop systemd-resolved
+#sudo systemctl stop systemd-resolved
 
 #Configurar Wi-Fi
 systemctl stop NetworkManager.service
@@ -26,26 +26,18 @@ ip addr add 10.5.5.1/24 dev $arg1
 sleep 2
 ###########
 
-########### Start dnsmasq ##########
-if [ -z "$(ps -e | grep dnsmasq)" ]
-then
- dnsmasq
-fi
-###########
+####Start isc-dhcp-server ####
+sudo systemctl restart isc-dhcp-server
+
 ########### Enable NAT ############
 iptables -t nat -A POSTROUTING -o $arg2 -j MASQUERADE
 iptables -A FORWARD -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
 iptables -A FORWARD -i $arg1 -o $arg2 -j ACCEPT
 
-#Thanks to lorenzo
-#Uncomment the line below if facing problems while sharing PPPoE, see lorenzo's comment for more details
-#iptables -I FORWARD -p tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu
-
 sysctl -w net.ipv4.ip_forward=1
 ###########
 ########## Start hostapd ###########
 hostapd hostapd.conf
-killall dnsmasq
 
 
 ## Videocamara
