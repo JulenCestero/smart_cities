@@ -1,8 +1,6 @@
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
 include 'header.php';
+include 'admin_control.php';
 ?>
 
 <script>
@@ -32,6 +30,17 @@ function loadDoc() {
 /*font Awesome http://fontawesome.io*/
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
 /*Comment List styles*/
+.column {
+  float: left;
+  width: 35%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .comment-list .row {
   margin-bottom: 0px;
 }
@@ -111,9 +120,6 @@ function loadDoc() {
 <body class="clean-body" style="margin: 0;padding: 0;-webkit-text-size-adjust: 100%;background-color: #1C5FD4">
 <div class="container" style="width:100%; margin: 0 auto;">
   <div class="row">
-    <div class="column">
-    <!-- <iframe id="dashboard" frameborder="0" scrolling="no"  height="80%" width="80%"" onload="loadDoc(); " /> -->
-    </div>
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" id="buttons" method="POST">
       <div class="column">
         <div class="row" style="background-color: #6895E1; padding:5px 15px 15px 15px;">
@@ -134,6 +140,11 @@ function loadDoc() {
         </div>
       </div>
     </form>
+    <div class="column">
+      <iframe src="http://192.168.4.118:3000/d/fqAjZzwmk/sensors?orgId=1&from=1547555709527&to=1547577309527&kiosk" frameborder="0" scrolling="no"  height="80%" width="200%" >
+    <!-- <iframe id="dashboard" frameborder="0" scrolling="no"  height="80%" width="80%"" onload="loadDoc(); " /> -->
+
+    </div>
   </div> 
   <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST"){

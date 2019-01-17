@@ -16,6 +16,9 @@ sudo apt-get install dnsmasq # Already installed
 # Security
 sudo apt-get install freeradius
 sudo apt-get install openssl # Already installed
+# SSH
+sudo apt install openssh-client
+sudo apt install openssh-server
 # Extra 
 sudo apt-get install libmysqlclient-dev
 

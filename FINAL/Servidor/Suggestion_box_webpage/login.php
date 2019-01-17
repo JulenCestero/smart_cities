@@ -18,7 +18,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 			$_SESSION['logged'] = 1;
 			$_SESSION['id']	      = $passwordRow['id'];
 			$_SESSION['privileges'] = $passwordRow['privileges'];
-			if($_SESSION['id'] == 2) redirect("welcomeDumbeldore.php");
+			if($_SESSION['id'] == 1) redirect("welcomeDumbeldore.php");
 			else redirect("welcomeWizard.php");
 		}
 	}

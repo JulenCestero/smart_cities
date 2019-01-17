@@ -33,6 +33,9 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 # DNS
 sudo apt-get install bind9 bind9utils bind9-doc
+# SSH
+sudo apt install openssh-client
+sudo apt install openssh-server
 # Extra
 sudo apt-get install libmysqlclient-dev
 

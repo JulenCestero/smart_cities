@@ -10,7 +10,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     if ($conn->query($sql) === TRUE) {
         redirect("suggestions.php");
     } else {
-        echo("Error: " . $sql . "<br>" . $conn->error);
+        //echo("Error: " . $sql . "<br>" . $conn->error);
         redirect("welcomeWizard.php");
     }
 }
