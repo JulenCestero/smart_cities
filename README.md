@@ -82,7 +82,7 @@
 ---
 
 # Control de Contikis (Gateway)
-- Script de Python
+- Script de Python: *process_sensors.py*
 - Recibe los datos por serial desde el Máster y los envía al servidor a mysql, directamente a la tabla sensors mediante la cuenta que le permite acceder desde fuera de localhost
 - Envía el modo y número de leds almacenado en la base de datos, en la tabla sensor_status al máster para que cambien el modo de operación
 - *Falta limpiar un poco el script y hacerlo más seguro, con exceptions más robustas*
