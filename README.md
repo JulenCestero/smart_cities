@@ -78,6 +78,9 @@
 - API key para Dumbeldore: eyJrIjoiNEd0QVdXVFdNcTJRRDFJMk5yTXFSaVBGVzB2MmFyMDYiLCJuIjoiRHVtYmVsZG9yZSIsImlkIjoxfQ==
 - https://stackoverflow.com/questions/42303800/how-to-display-grafana-graphs-in-my-websites-admin-panel-securely
 
+---
+---
+
 # Control de Contikis (Gateway)
 - Script de Python
 - Recibe los datos por serial desde el Máster y los envía al servidor a mysql, directamente a la tabla sensors mediante la cuenta que le permite acceder desde fuera de localhost
