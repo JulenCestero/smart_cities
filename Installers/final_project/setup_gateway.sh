@@ -25,4 +25,4 @@ sudo apt-get install libmysqlclient-dev
 
 
 
-pip install -r requirements.txt192.168.4.119192.168.4.119
+pip install -r requirements.txt
