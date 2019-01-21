@@ -52,20 +52,5 @@ killall dnsmasq
 sudo iptables -t nat -A PREROUTING -i enx00606e439261 -p tcp -j DNAT --to-destination 10.0.0.2
 
 
-##QoS
-# Restricting the BW
-# Download, solo el de Wi-Fi
-#sudo tc qdisc add dev enx00606e43913f root handle 1: htb default 10
-#sudo tc class add dev enx00606e43913f parent 1: classid 1:1 htb rate 5000kbit ceil 5000kbit
-#sudo tc class add dev enx00606e43913f parent 1:1 classid 1:10 htb rate 5000kbit ceil 5000kbit prio 1
-#sudo tc filter add dev enx00606e43913f parent 1:0 protocol ip handle 10 fw flowid 1:10
-#sudo iptables -t mangle -A OUTPUT -d 10.0.0.2 -j MARK --set-mark 10
-# Upload 
-#sudo tc qdisc add dev enx00606e439261 root handle 1: htb default 10
-#sudo tc class add dev enx00606e439261 parent 1: classid 1:1 htb rate 1000kbit ceil 1000kbit
-#sudo tc class add dev enx00606e439261 parent 1:1 classid 1:10 htb rate 1000kbit ceil 1000kbit prio 1
-#sudo tc filter add dev enx00606e439261 parent 1:0 protocol ip handle 10 fw flowid 1:10
-#sudo iptables -t mangle -A FORWARD -s 10.0.0.2 -j MARK --set-mark 10
-
 
 
