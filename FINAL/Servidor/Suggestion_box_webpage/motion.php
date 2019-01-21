@@ -87,7 +87,14 @@ include 'admin_control.php';
 }
 </style>
 <body class="clean-body" style="margin: 0;padding: 0;-webkit-text-size-adjust: 100%;background-color: #1C5FD4">
-<div class="container" style="width:100%; margin: 0 auto;">
+<div class="container" style="width:100%; margin: 0 auto;" align="center">
+<a href="http://192.168.4.119:8081" align="center">
+		<button type="button"class="btn btn-primary"> 
+			Go to the Video Web
+		</button>
+</a> 
+</div>
+<div class="container" style="width:100%; margin: 0 auto;" align="center">
     <iframe src="http://192.168.4.119:8081/" frameborder="0" scrolling="no"  height="80%" width="80% onload="resizeIframe(this)" />
 </div>
 <script>

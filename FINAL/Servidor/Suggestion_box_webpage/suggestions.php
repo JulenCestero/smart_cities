@@ -388,13 +388,39 @@ a[x-apple-data-detectors=true] {
 </div>
                   
                   
-<form action="suggestion_handler.php" id="sug_form" method="POST">
+<form action="suggestions.php" id="sug_form" method="POST">
   
 <div align="center" class="button-container center " style="padding-right: 10px; padding-left: 10px; padding-top:10px; padding-bottom:10px;">
   <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0; border-collapse: collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;"><tr><td style="padding-right: 10px; padding-left: 10px; padding-top:10px; padding-bottom:10px;" align="center"><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="" style="height:49pt; v-text-anchor:middle; width:141pt;" arcsize="91%" strokecolor="#EE4EAA" fillcolor="#EE4EAA"><w:anchorlock/><v:textbox inset="0,0,0,0"><center style="color:#ffffff; font-family:'Oxygen', 'Trebuchet MS', Helvetica, sans-serif; font-size:28px;"><![endif]-->
-    <button type="submit" style="color: #ffffff; background-color: #EE4EAA; border-radius: 60px; -webkit-border-radius: 60px; -moz-border-radius: 60px; max-width: 400px; width: 69px;width: auto; border-top: 0px solid transparent; border-right: 0px solid transparent; border-bottom: 0px solid transparent; border-left: 0px solid transparent; padding-top: 5px; padding-right: 60px; padding-bottom: 5px; padding-left: 60px; font-family: 'Oxygen', 'Trebuchet MS', Helvetica, sans-serif; text-align: center; mso-border-alt: none;">
+  <button type="submit" style="color: #ffffff; background-color: #EE4EAA; border-radius: 60px; -webkit-border-radius: 60px; -moz-border-radius: 60px; max-width: 400px; width: 69px;width: auto; border-top: 0px solid transparent; border-right: 0px solid transparent; border-bottom: 0px solid transparent; border-left: 0px solid transparent; padding-top: 5px; padding-right: 60px; padding-bottom: 5px; padding-left: 60px; font-family: 'Oxygen', 'Trebuchet MS', Helvetica, sans-serif; text-align: center; mso-border-alt: none;">
       <span style="font-family:'Oxygen', 'Trebuchet MS', Helvetica, sans-serif;font-size:16px;line-height:32px;"><span style="font-size: 28px; line-height: 60px;"><strong>Send<span style="line-height: 48px;"></span></strong></span></span>
     </button>
+              <?php
+            //include 'header.php';
+            if($_SERVER["REQUEST_METHOD"] == "POST"){
+                $suggestion = test_input($_POST["suggestion"]);
+                $id = $_SESSION['id'];
+                $sql = "INSERT INTO suggestions VALUES (NULL, NULL, '$suggestion', $id)";
+                $conn = new mysqli('localhost', 'wizard', 'Wizard_Smart-cities4', 'Hogwarts');
+                if ($conn->query($sql) === TRUE) {
+                    redirect("suggestions.php");
+                } else {
+                    //echo("Error: " . $sql . "<br>" . $conn->error);
+                    redirect("welcomeWizard.php");
+                }
+            }
+            else{
+              redirect("login.html"); // Login fallido
+            }
+
+            function test_input($data){
+              $data = trim($data);
+                $data = stripslashes($data);
+                $data = htmlspecialchars($data); 
+              return filter_var($data, FILTER_SANITIZE_STRING); // http://php.net/manual/es/filter.filters.sanitize.php
+            }
+            ?>
+  
   <!--[if mso]></center></v:textbox></v:roundrect></td></tr></table><![endif]-->
 </div>
 </form>

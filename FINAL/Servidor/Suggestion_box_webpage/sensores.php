@@ -141,7 +141,7 @@ function loadDoc() {
       </div>
     </form>
     <div class="column">
-      <iframe src="http://192.168.4.118:3000/d/fqAjZzwmk/sensors?orgId=1&from=1547555709527&to=1547577309527&kiosk" frameborder="0" scrolling="no"  height="80%" width="200%" >
+      <iframe src="http://192.168.4.118:3000/d/fqAjZzwmk/sensors?orgId=1&from=1547728982998&to=1547741708788&kiosk" frameborder="0" scrolling="no"  height="80%" width="200%" >
     <!-- <iframe id="dashboard" frameborder="0" scrolling="no"  height="80%" width="80%"" onload="loadDoc(); " /> -->
 
     </div>
