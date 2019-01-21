@@ -1,8 +1,10 @@
 #Cambiar el DNS
 #sudo nano /etc/network/interfaces
-#192.168.4.4
+#192.168.4.118
 sudo nano /etc/resolv.conf
 #Comprobar internet
+
+sudo ifconfig wlxe894f60bc38a up
 
 #Matar procesos
 sudo systemctl stop systemd-resolved
@@ -48,4 +50,7 @@ killall dnsmasq
 
 ## Videocamara
 sudo iptables -t nat -A PREROUTING -i enx00606e439261 -p tcp -j DNAT --to-destination 10.0.0.2
+
+
+
 
