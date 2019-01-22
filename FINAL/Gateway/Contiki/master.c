@@ -9,6 +9,7 @@
 #include "string.h"
 #include "dev/uart1.h"	
 #include "net/rime.h"
+#include <assert.h>
 /*-------------------------------------*/
 PROCESS(SerialLine_process, "Shell");
 PROCESS(LED_process,"LED process");
@@ -33,8 +34,11 @@ static int lig_sl 		=0;
 static int temp_sl 		=0;
 static int mode_sl 		=0;
 static int n_led_sl		=0;
+static int mode_sl_s 		=0;
+static int n_led_sl_s		=0;
 static int n_vecinos 	=0;
 static int pos 			=0;
+static int pos_s 		=0;
 static int cont 		=0;
 static int cont_20 		=0;
 static int mypos 		=9;
@@ -75,8 +79,16 @@ static struct msg_uni
 static struct msg_uni_send
 {
 	unsigned char seqNumber; 	// Sequence Number 
-	int mode;					// 0 for automatic and 1 for manual
-	int manual_int;				// number 0 to 3 to inidcate leds
+	union
+	{
+		int mode; 					// luminous energy
+		unsigned char modeC[2];	
+	};
+	union
+	{
+		int n_led; 					// luminous energy
+		unsigned char n_ledC[2];	
+	};
 };
 
 static struct VecinosList
@@ -100,6 +112,52 @@ static process_event_t event_serial_data_ready;
 static process_event_t event_broadcast;
 static process_event_t event_unicast;
 static process_event_t event_LED;
+
+static char** str_split(char* a_str, const char a_delim)
+{
+    char** result    = 0;
+    size_t count     = 0;
+    char* tmp        = a_str;
+    char* last_comma = 0;
+    char delim[2];
+    delim[0] = a_delim;
+    delim[1] = 0;
+
+    /* Count how many elements will be extracted. */
+    while (*tmp)
+    {
+        if (a_delim == *tmp)
+        {
+            count++;
+            last_comma = tmp;
+        }
+        tmp++;
+    }
+
+    /* Add space for trailing token. */
+    count += last_comma < (a_str + strlen(a_str) - 1);
+
+    /* Add space for terminating null string so caller
+       knows where the list of returned strings ends. */
+    count++;
+
+    result = malloc(sizeof(char*) * count);
+
+    if (result)
+    {
+        size_t idx  = 0;
+        char* token = strtok(a_str, delim);
+
+        while (token)
+        {
+            *(result + idx++) = strdup(token);
+            token = strtok(0, delim);
+        }
+        *(result + idx) = 0;
+    }
+
+    return result;
+}
 
 static int positionList(rimeaddr_t *address)
 {
@@ -126,6 +184,7 @@ static void receive_brd_function(struct broadcast_conn *c, rimeaddr_t *from)
 	{	
 		Vecinos[n_vecinos].addr.u8[0] 	= from->u8[0];
 		n_vecinos++;
+		printf("n_vecino_brocast");
 	}
 	else{}
 }
@@ -248,7 +307,7 @@ PROCESS_THREAD(Broadcast_process, ev, data)
 		mymsg.IamMaster	= 1;
 		mymsg.seqNumber = cont;
 		packetbuf_copyfrom(&mymsg,sizeof(struct msg_brod)); // copy message to buffer
-		broadcast_send(&broadcast); //Send the message
+		broadcast_send(&broadcast); //Send the message	
 	}
 	PROCESS_END(); /*- Finish Process Declaration -*/
 }
@@ -265,13 +324,11 @@ PROCESS_THREAD(Unicast_process, ev, data)
 		cont++; // Increase counter
 		static struct msg_uni_send mymsg_uni; // Create a new message
 		mymsg_uni.seqNumber = cont;
-		mymsg_uni.mode	    = mode_sl;
-		mymsg_uni.manual_int= n_led_sl;
+		mymsg_uni.mode	    = mode_sl_s;
+		mymsg_uni.n_led	    = n_led_sl_s;
 		packetbuf_copyfrom(&mymsg_uni,sizeof(struct msg_uni)); // copy message to buffer
-		to_addr.u8[0] = Vecinos[pos].addr.u8[0];
+		to_addr.u8[0] = Vecinos[pos_s].addr.u8[0];
 		unicast_send(&unicast,&to_addr.u8[0]); //Send the message
-		printf("unicast %d,%d",mymsg_uni.mode,mymsg_uni.manual_int);	
-		
 	}
 	PROCESS_END(); /*- Finish Process Declaration -*/
 }
@@ -282,33 +339,41 @@ PROCESS_THREAD(SerialLine_process, ev, data) {
 		
 	// The serial port needs to be initialized, this can be done in the main process or any other as required:
 	// String to use with strcmp
-	char * line;	
+	static char * line;	
+	static char** tokens;
+	static int i=0;
 	while(1) 
 	{
 		PROCESS_WAIT_EVENT_UNTIL(ev == event_serial_data_ready);
 		line = (char *) data;
-		if (strncmp(line, "9\n", strlen("9\n")) == 0)
-		{ 
-			PROCESS_WAIT_EVENT_UNTIL(ev == event_serial_data_ready);
-			line = (char *) data;
-			mode_op = atoi(line);
-			PROCESS_WAIT_EVENT_UNTIL(ev == event_serial_data_ready);
-			line = (char *) data;
-			n_led_op = atoi(line);
-			//printf("%d.ACK\n",mypos);
-		}
-		else
-		{
-			printf("safdgdsaf");
-			pos=atoi(line);
-			PROCESS_WAIT_EVENT_UNTIL(ev == event_serial_data_ready);
-			line = (char *) data;
-			mode_sl=atoi(line);
-			PROCESS_WAIT_EVENT_UNTIL(ev == event_serial_data_ready);
-			line = (char *) data;
-			n_led_sl=atoi(line);
-			process_post(&Unicast_process, event_unicast,"");
-		}
+		tokens = str_split(line, '.');
+		if (tokens)
+		    {	
+		    	if(strncmp(*(tokens + i), "9", strlen("9")) == 0)
+			{
+				free(*(tokens + i));
+				i++;
+				mode_op = atoi(*(tokens + i));
+				free(*(tokens + i));
+				i++;
+				n_led_op = atoi(*(tokens + i));	
+				free(*(tokens + i));
+			}
+			else
+			{
+				pos_s=atoi(*(tokens + i));
+				free(*(tokens + i));
+				i++;
+				mode_sl_s=atoi(*(tokens + i));	
+				free(*(tokens + i));
+				i++;
+				n_led_sl_s=atoi(*(tokens + i));	
+				free(*(tokens + i));
+				process_post(&Unicast_process, event_unicast,"");
+			}
+			i=0;
+			free(tokens);
+		    }
 	}
 	PROCESS_END();
 }

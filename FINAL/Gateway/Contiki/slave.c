@@ -129,10 +129,16 @@ static struct unicast_conn unicast; // Unicast conection declaration
 static void receive_uni_function(struct unicast_conn *c, rimeaddr_t *from)
 {
 	struct msg_uni_receive *pm 	= packetbuf_dataptr(); //get Pointer to message
-	mode_op						= pm -> modeC[1]*255 + pm -> modeC[0];
-	n_led_op					= pm -> n_ledC[1]*255 + pm -> n_ledC[0];
-	ACK 						= 1;
-	printf("%d,%d",mode_op,n_led_op);
+	if(pos_master!=-1)
+	{
+		if(rimeaddr_cmp(from,&Vecinos[pos_master].addr)!=0)	
+		{
+			mode_op						= pm -> modeC[1]*255 + pm -> modeC[0];
+			n_led_op					= pm -> n_ledC[1]*255 + pm -> n_ledC[0];
+			ACK 						= 1;
+			printf("uni Master: %d,%d\n",mode_op,n_led_op);
+		}
+	}
 	//process_post(&Unicast_process, event_unicast,"");
 }
 static struct unicast_callbacks uni_call = {receive_uni_function};
@@ -149,9 +155,9 @@ PROCESS_THREAD(LED_process, ev, data)
 		if (ev == PROCESS_EVENT_TIMER)
 		{
 			etimer_reset(&t2);
+
 			if(mode_op==0)
-			{
-				clock_delay(1000);
+			{	
 				lig=get_light();
 				if(lig<150)
 				{
@@ -179,22 +185,23 @@ PROCESS_THREAD(LED_process, ev, data)
 				{
 					leds_off(LEDS_RED|LEDS_BLUE|LEDS_GREEN);
 				}
-				else if(n_led_op==1*256)
+				else if(n_led_op==1)
 				{
 					leds_off(LEDS_RED|LEDS_BLUE|LEDS_GREEN);
 					leds_on(LEDS_RED);
 				}
-				else if(n_led_op==2*256)
+				else if(n_led_op==2)
 				{
 					leds_off(LEDS_RED|LEDS_BLUE|LEDS_GREEN);
 					leds_on(LEDS_RED|LEDS_BLUE);
 				}
-				else if (n_led_op==3*256)
+				else if (n_led_op==3)
 				{
 					leds_off(LEDS_RED|LEDS_BLUE|LEDS_GREEN);
 					leds_on(LEDS_RED|LEDS_BLUE|LEDS_GREEN);
 				}
 			}
+				printf("Modo: %d,%d,%d",mode_op,n_led_op, lig);
 		}
 	}
 	PROCESS_END(); /*- Finish Process Declaration -*/
@@ -290,23 +297,4 @@ PROCESS_THREAD(Main_process, ev, data) {
 	}
 	PROCESS_END(); /*- Finish Process Declaration -*/
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
