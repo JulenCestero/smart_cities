@@ -1,0 +1,31 @@
+GET /pixel?pid=i0r4s2v&t=r&uid=d256ecd19cc226df&r=http%3A%2F%2Fgrey.erne.co%2Ftags%3Fid%3Dcm_ct_33ff5ee80eab7dcc%26img%3D1%26red%3Dhttp%253A%252F%252Fad.360yield.com%252Fmatch%253Fpublisher_dsp_id%253D67%2526external_user_id%253DaTxS1bP1Vjtxb9ukmvITR-1T HTTP/1.1
+Accept: image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+Host: ps.eyeota.net
+Connection: Keep-Alive
+
+HTTP/1.1 302 Found
+Set-Cookie: mako_uid=167c115c555-67910000010f6d5d; Domain=eyeota.net; Path=/; Expires=Wed, 18 Dec 2019 11:31:28 GMT;
+P3P: CP="CURa ADMa DEVa TAIo PSAo PSDo OUR SAMo BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR", policyref="http://ps.eyeota.net/w3c/p3p.xml"
+Location: /pixel/bounce/?pid=i0r4s2v&t=r&uid=d256ecd19cc226df&r=http%3A%2F%2Fgrey.erne.co%2Ftags%3Fid%3Dcm_ct_33ff5ee80eab7dcc%26img%3D1%26red%3Dhttp%253A%252F%252Fad.360yield.com%252Fmatch%253Fpublisher_dsp_id%253D67%2526external_user_id%253DaTxS1bP1Vjtxb9ukmvITR-1T
+Content-Length: 0
+Date: Tue, 18 Dec 2018 11:31:28 GMT
+Set-Cookie: ONPLFTRH=27997|XBjak; path=/
+
+GET /pixel/bounce/?pid=i0r4s2v&t=r&uid=d256ecd19cc226df&r=http%3A%2F%2Fgrey.erne.co%2Ftags%3Fid%3Dcm_ct_33ff5ee80eab7dcc%26img%3D1%26red%3Dhttp%253A%252F%252Fad.360yield.com%252Fmatch%253Fpublisher_dsp_id%253D67%2526external_user_id%253DaTxS1bP1Vjtxb9ukmvITR-1T HTTP/1.1
+Accept: image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+Host: ps.eyeota.net
+Connection: Keep-Alive
+Cookie: mako_uid=167c115c555-67910000010f6d5d; ONPLFTRH=27997|XBjak
+
+HTTP/1.1 302 Found
+Location: http://grey.erne.co/tags?id=cm_ct_33ff5ee80eab7dcc&img=1&red=http%3A%2F%2Fad.360yield.com%2Fmatch%3Fpublisher_dsp_id%3D67%26external_user_id%3DaTxS1bP1Vjtxb9ukmvITR-1T
+Content-Length: 0
+Date: Tue, 18 Dec 2018 11:31:29 GMT
+Set-Cookie: ONPLFTRH=27997|XBjal; path=/
+

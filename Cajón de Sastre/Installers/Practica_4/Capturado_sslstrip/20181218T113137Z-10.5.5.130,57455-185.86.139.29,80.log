@@ -1,0 +1,64 @@
+POST /prebid/v1 HTTP/1.1
+Origin: http://www.comunio.es
+Referer: http://www.comunio.es/login.phtml
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+Content-Type: text/plain
+Accept: */*
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Host: prg.smartadserver.com
+Content-Length: 331
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: vs=243888=8395951; TestIfCookie=ok; TestIfCookieP=ok; pbw=%24b%3d17170%3b%24o%3d11100; sasd2=q=%24qc%3d1307444706%3b%24ql%3dHigh%3b%24qpc%3d20009%3b%24qpp%3d%3b%24qt%3d228_4086_114026t%3b%24dma%3d0&c=1&l=1226322723&lo=-1993271919&lt=636807330836616534&o=1; sasd=%24qc%3d1307444706%3b%24ql%3dHigh%3b%24qpc%3d20009%3b%24qpp%3d%3b%24qt%3d228_4086_114026t%3b%24dma%3d0; pid=2597485801410782734; pdomid=14; x-smrt-d=6%3b14%3b56
+
+{"siteid":"243888","pageid":"951440","formatid":"62367","bidfloor":0,"ckid":0,"tagId":"snhb-right_skyscraper-0","sizes":[{"w":160,"h":600},{"w":300,"h":600}],"pageDomain":"http://www.comunio.es/login.phtml","transactionId":"dc2e30e2-f232-4b8f-9c30-67d052aea4a5","timeout":1500,"bidId":"11471081e052c1","prebidVersion":"1.15.0-pre"}HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store
+Pragma: no-cache
+Content-Type: application/json
+Expires: -1
+P3P: CP="BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo"
+X-SMRT-D: 6%3b14%3b84
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: http://www.comunio.es
+Set-Cookie: vs=243888=8395951; domain=smartadserver.com; path=/
+Set-Cookie: pid=2597485801410782734; domain=smartadserver.com; expires=Sat, 18-Jan-2020 11:31:37 GMT; path=/
+Set-Cookie: pdomid=14; domain=smartadserver.com; expires=Sat, 18-Jan-2020 11:31:37 GMT; path=/
+Set-Cookie: sasd2=q=%24qc%3d1307444706%3b%24ql%3dHigh%3b%24qpc%3d20009%3b%24qpp%3d%3b%24qt%3d228_4086_114026t%3b%24dma%3d0&c=1&l=1226322723&lo=-1993271919&lt=636807330979183969&o=1; domain=smartadserver.com; expires=Wed, 19-Dec-2018 11:31:37 GMT; path=/
+Set-Cookie: sasd=%24qc%3d1307444706%3b%24ql%3dHigh%3b%24qpc%3d20009%3b%24qpp%3d%3b%24qt%3d228_4086_114026t%3b%24dma%3d0; domain=smartadserver.com; expires=Wed, 19-Dec-2018 11:31:37 GMT; path=/
+Set-Cookie: x-smrt-d=6%3b14%3b84; path=/
+Date: Tue, 18 Dec 2018 11:31:37 GMT
+Content-Length: 0
+
+POST /prebid/v1 HTTP/1.1
+Origin: http://www.comunio.es
+Referer: http://www.comunio.es/login.phtml
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+Content-Type: text/plain
+Accept: */*
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Host: prg.smartadserver.com
+Content-Length: 346
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: vs=243888=8395951; TestIfCookie=ok; TestIfCookieP=ok; pbw=%24b%3d17170%3b%24o%3d11100; sasd2=q=%24qc%3d1307444706%3b%24ql%3dHigh%3b%24qpc%3d20009%3b%24qpp%3d%3b%24qt%3d228_4086_114026t%3b%24dma%3d0&c=1&l=1226322723&lo=-1993271919&lt=636807330836616534&o=1; sasd=%24qc%3d1307444706%3b%24ql%3dHigh%3b%24qpc%3d20009%3b%24qpp%3d%3b%24qt%3d228_4086_114026t%3b%24dma%3d0; pid=2597485801410782734; pdomid=14; x-smrt-d=6%3b14%3b56
+
+{"siteid":"243888","pageid":"951439","formatid":"62370","bidfloor":0,"ckid":0,"tagId":"snhb-top_leaderboard-0","sizes":[{"w":728,"h":90},{"w":970,"h":90},{"w":970,"h":250}],"pageDomain":"http://www.comunio.es/login.phtml","transactionId":"afdc9549-e432-4500-8ac8-6ce05e91f65f","timeout":1500,"bidId":"9d9150fc2fd57f","prebidVersion":"1.15.0-pre"}HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store
+Pragma: no-cache
+Content-Type: application/json
+Expires: -1
+P3P: CP="BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo"
+X-SMRT-D: 6%3b14%3b57
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: http://www.comunio.es
+Set-Cookie: vs=243888=8395951; domain=smartadserver.com; path=/
+Set-Cookie: pid=2597485801410782734; domain=smartadserver.com; expires=Sat, 18-Jan-2020 11:31:38 GMT; path=/
+Set-Cookie: pdomid=14; domain=smartadserver.com; expires=Sat, 18-Jan-2020 11:31:38 GMT; path=/
+Set-Cookie: sasd2=q=%24qc%3d1307444706%3b%24ql%3dHigh%3b%24qpc%3d20009%3b%24qpp%3d%3b%24qt%3d228_4086_114026t%3b%24dma%3d0&c=1&l=1226322723&lo=-1993271919&lt=636807330983373060&o=1; domain=smartadserver.com; expires=Wed, 19-Dec-2018 11:31:38 GMT; path=/
+Set-Cookie: sasd=%24qc%3d1307444706%3b%24ql%3dHigh%3b%24qpc%3d20009%3b%24qpp%3d%3b%24qt%3d228_4086_114026t%3b%24dma%3d0; domain=smartadserver.com; expires=Wed, 19-Dec-2018 11:31:38 GMT; path=/
+Set-Cookie: x-smrt-d=6%3b14%3b57; path=/
+Date: Tue, 18 Dec 2018 11:31:37 GMT
+Content-Length: 0
+

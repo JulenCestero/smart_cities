@@ -1,0 +1,16 @@
+GET /idmatch?publisher_user_id=a3880118-03de-4c7b-9dee-ab25b1e045b9&publisher_dsp_id=69&publisher_call_type=redirect&gdpr=1&gdpr_consent=BOWJjG9OWPQWYCLAAAENBy-AAAAiDAAA&publisher_redirecturl=http://ad.360yield.com/match HTTP/1.1
+Accept: image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+Host: match.adsby.bidtheatre.com
+Connection: Keep-Alive
+
+HTTP/1.1 302 Found
+Server: Apache-Coyote/1.1
+P3P: policyref="/w3c/p3p.xml", CP="DSP NON LAW OUR CUR DEVo PSAo PSDo IND STA NAV COM INT"
+Set-Cookie: __kuid=9a2b4e1e-a677-41a2-92d7-c7b86be65f2e.314346687; Domain=.adsby.bidtheatre.com; Expires=Tue, 25-Dec-2018 11:31:27 GMT
+Location: http://ad.360yield.com/match?gdpr_consent=BOWJjG9OWPQWYCLAAAENBy-AAAAiDAAA&gdpr=1&expiration=1546342287&external_user_id=9a2b4e1e-a677-41a2-92d7-c7b86be65f2e&publisher_dsp_id=69
+Content-Length: 0
+Date: Tue, 18 Dec 2018 11:31:26 GMT
+

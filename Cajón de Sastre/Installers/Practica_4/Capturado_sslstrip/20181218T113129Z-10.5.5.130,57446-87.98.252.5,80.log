@@ -1,0 +1,17 @@
+GET /tags?id=cm_ct_33ff5ee80eab7dcc&img=1&red=http%3A%2F%2Fad.360yield.com%2Fmatch%3Fpublisher_dsp_id%3D67%26external_user_id%3DaTxS1bP1Vjtxb9ukmvITR-1T HTTP/1.1
+Accept: image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+Accept-Language: es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+Host: grey.erne.co
+Connection: Keep-Alive
+Cookie: u=aTxS1bP1Vjtxb9ukmvITR-1T
+
+HTTP/1.1 302 
+Server: openresty
+Date: Tue, 18 Dec 2018 11:31:29 GMT
+Content-Length: 0
+Connection: keep-alive
+Location: http://ad.360yield.com/match?publisher_dsp_id=67&external_user_id=aTxS1bP1Vjtxb9ukmvITR-1T
+Strict-Transport-Security: max-age=0; includeSubDomains;
+
