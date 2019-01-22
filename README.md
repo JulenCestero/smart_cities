@@ -143,14 +143,19 @@
 (por lo tanto las interfaces estan definidas en /etc/network/interfaces, es decir, al iniciar Ubuntu no se tienen que meter manualmente las redes). 
 
 - Configurar iptables para que redirija paquetes, es decir configurarlo como router (necesario, si no, no se dispondrá de internet):
-	- Para que los paquetes puedan salir desde el interfaz del Wi-Fi hacia ethernet:
-      - enviar los paquetes que entren por la interfaz wifi a la interfaz ethernet
+
+- El SNAT está aplicado, es decir de privada a pública ya lo hemos activado para la videovigilancia al igual que el forwarding.
+
+- Permite atravesar la mayor parte de los paquetes
+```bash
+iptables -A FORWARD -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
+```
+
+- Para que los paquetes puedan salir desde el interfaz del Wi-Fi hacia ethernet:
+- enviar los paquetes que entren por la interfaz wifi a la interfaz ethernet
 ```bash
 iptables -A FORWARD -i (interfaz wifi) -o (interfaz ethernet a internet) -j ACCEPT
 ```
-
-- El SNAT está aplicado, es decir de privada a pública ya lo hemos activado para la videovigilancia al igual que el forwarding.  
-
 - Activar dnsmasq: --> Para que reparta IPs	
 ```bash
 	if [ -z "\$(ps -e | grep dnsmasq)" ]  # si la "$(ps -e | grep dnsmasq)" está vacio entonces ejecuta dnsmasq
